@@ -6,6 +6,24 @@ Open-source **AI code review skills and tools** for Claude Code, Codex and other
 
 Live page with filters: **[https://agentskillshub.top/best/code-review/](https://agentskillshub.top/best/code-review/?utm_source=github&utm_medium=awesome-list)** · refreshed every 8 hours
 
+## Which one to install
+
+We ran 16 of these end to end (13 gave a result). This is what we would pick; the [full test](#tested) is below.
+
+- 🥇 **If you want a review skill at all: [code-review-skill](https://github.com/awesome-skills/code-review-skill)**  
+  Found all eight planted defects with no false alarm on the clean pull requests, in about a minute and under two findings per pull request. That equals Claude Code with nothing installed: it adds a written checklist and a fixed report format, not detection.
+- 🥈 **If you want every commit reviewed without asking: [roborev](https://github.com/kenn-io/roborev)**  
+  It reviews in the background as you commit, and it found all eight even with a different model (gpt-6-astra) doing the reading, with under one finding per pull request. Slower: 13 minutes for the twelve.
+- 🥉 **If you would rather wait than read noise: [adamsreview](https://github.com/adamjgmiller/adamsreview)**  
+  The quietest reviewer that missed nothing it finished: 0.5 findings per pull request, the defect found in all seven it completed. It ran out of our 30 minutes on the twelfth.
+
+**Know what these do not look for:** brooks-lint (design decay only; it passed a logged card token at 100/100); bug-hunter (ignores test files, so a weakened test goes through).
+
+Whichever you pick, the hardest defect was not in the code: four of 13 reviewers passed a pull request that quietly weakened a test's assertion. Read test changes yourself.
+
+*Listed by defects found, then time. This set does not rank the tools at the top: Claude Code with no tool installed found all 8 planted defects in a minute with no false alarm, and six tools did the same. Tools that bring their own model reviewed with gpt-6-astra, the skills with Claude Opus 5.5, so a gap between those two groups may be the model.*
+
+
 ## What these reviewers look like
 
 <table>
@@ -23,6 +41,7 @@ Live page with filters: **[https://agentskillshub.top/best/code-review/](https:/
 
 ## Contents
 
+- [🧪 Tested end to end](#tested)
 - [🔁 PR review bots & CI](#type-pr_bot) (39)
 - [🧩 Code review skills](#type-skill) (30)
 - [⌨️ Local & CLI review](#type-cli) (66)
@@ -38,6 +57,33 @@ Live page with filters: **[https://agentskillshub.top/best/code-review/](https:/
 4. At 50 stars or more it is listed on topic alone. Under 50 it must also clear a README quality bar (shows it working, one-command start, a concrete outcome, complete docs), and have 5 stars.
 
 The questions are answered by a decision model reading each README, not by hand. A repo near a cut-off can land on either side; open an issue if one is misfiled.
+
+<a id="tested"></a>
+## 🧪 Tested end to end
+
+On 2026-10-10 we ran 16 of these tools and 13 ran. Each reviewed the same 12 pull requests against a small Python service in a throwaway sandbox: 8 carry one planted defect (an off-by-one, an SQL injection, a card token in the logs, a missing permission check, a retry that never ends, a swallowed error, an inverted condition, a weakened test) and 4 are clean. Two numbers per tool, as in SWR-Bench: defects found, and blocking findings on the clean ones. A judge (gpt-6-astra, three passes) marked each review. Claude Code with no tool installed did the same job as a control.
+
+**What we found:** No tool beat the control. Claude Code with nothing installed found all 8 defects in about a minute with no false alarm (1.8 findings per pull request); 6 tools matched it and none did better. What separates the tools is noise (0.5 to 7.2 findings per pull request) and time (1 to 30 minutes). The defect missed most was the weakened test: 4 of 13 let it through.
+
+| # | Tool | ★ | Defects found (of 8) | False alarms on 4 clean PRs | Findings per PR | Time | Reviewed by |  |
+|---|---|---|---|---|---|---|---|---|
+| 1 | [code-review-skill](https://github.com/awesome-skills/code-review-skill) | 1,914 | 8/8 | 0 | 1.8 | 1 min | Claude Opus 5.5 | [evidence](https://agentskillshub.top/best-runs/review/awesome-skills__code-review-skill.html) |
+| 2 | [guard-skills](https://github.com/amElnagdy/guard-skills) | 1,153 | 8/8 | 0 | 1.4 | 2 min | Claude Opus 5.5 | [evidence](https://agentskillshub.top/best-runs/review/amElnagdy__guard-skills.html) |
+| 3 | [review-forge](https://github.com/vikingmute/review-forge) | 220 | 8/8 | 0 | 1.3 | 2 min | Claude Opus 5.5 | [evidence](https://agentskillshub.top/best-runs/review/vikingmute__review-forge.html) |
+| 4 | [clean-architecture-skills](https://github.com/nathankim0/clean-architecture-skills) | 90 | 8/8 | 0 | 2.7 | 2 min | Claude Opus 5.5 | [evidence](https://agentskillshub.top/best-runs/review/nathankim0__clean-architecture-skills.html) |
+| 5 | [open-code-review](https://github.com/spencermarx/open-code-review) | 331 | 8/8 | 0 | 7.2 | 11 min | Claude Opus 5.5 | [evidence](https://agentskillshub.top/best-runs/review/spencermarx__open-code-review.html) |
+| 6 | [roborev](https://github.com/kenn-io/roborev) | 1,746 | 8/8 | 0 | 0.9 | 13 min | gpt-6-astra | [evidence](https://agentskillshub.top/best-runs/review/kenn-io__roborev.html) |
+| 7 | [adamsreview](https://github.com/adamjgmiller/adamsreview) | 243 | 7/7 | 0 | 0.5 | 30 min | Claude Opus 5.5 | [evidence](https://agentskillshub.top/best-runs/review/adamjgmiller__adamsreview.html) |
+| 8 | [bug-hunter](https://github.com/codexstar69/bug-hunter) | 487 | 7/8 | 0 | 0.8 | 3 min | Claude Opus 5.5 | [evidence](https://agentskillshub.top/best-runs/review/codexstar69__bug-hunter.html) |
+| 9 | [open-code-review](https://github.com/alibaba/open-code-review) | 43,912 | 7/8 | 0 | 0.6 | 7 min | gpt-6-astra | [evidence](https://agentskillshub.top/best-runs/review/alibaba__open-code-review.html) |
+| 10 | [vet](https://github.com/imbue-ai/vet) | 519 | 7/8 | 0 | 1.1 | 18 min | gpt-6-astra | [evidence](https://agentskillshub.top/best-runs/review/imbue-ai__vet.html) |
+| 11 | [brooks-lint](https://github.com/hyhmrright/brooks-lint) | 1,506 | 5/8 | 0 | 0.9 | 3 min | Claude Opus 5.5 | [evidence](https://agentskillshub.top/best-runs/review/hyhmrright__brooks-lint.html) |
+| 12 | [gentleman-guardian-angel](https://github.com/Gentleman-Programming/gentleman-guardian-angel) | 1,180 | 5/8 | see note | 6.0 | 9 min | gpt-6-astra | [evidence](https://agentskillshub.top/best-runs/review/Gentleman-Programming__gentleman-guardian-angel.html) |
+| 13 | [warden](https://github.com/getsentry/warden) | 414 | 4/8 | 0 | 0.5 | 25 min | gpt-6-astra | [evidence](https://agentskillshub.top/best-runs/review/getsentry__warden.html) |
+
+**Could not run:** cynical-sally (It sends the diff to its own hosted service, which answered Service Unavailable.); git-lrc (It sends the diff to a LiveReview server; there is none to review with locally.); claude-pr-review (It reviews pull requests on Bitbucket through the Bitbucket API; it has no way to review a local branch.)
+
+[All results, prompts and scripts](https://github.com/zhuyansen/agent-skills-hub/blob/main/ops/review-runs/RESULTS.md) · [https://agentskillshub.top/best/code-review/#test-results](https://agentskillshub.top/best/code-review/?utm_source=github&utm_medium=awesome-list&utm_campaign=awesome-claude-code-review#test-results)
 
 <a id="type-pr_bot"></a>
 ## 🔁 PR review bots & CI

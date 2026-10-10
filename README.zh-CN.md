@@ -6,6 +6,24 @@
 
 带类型筛选的在线页面:**[https://agentskillshub.top/best/code-review/](https://agentskillshub.top/best/code-review/?utm_source=github&utm_medium=awesome-list)** · 每 8 小时刷新
 
+## 到底装哪个
+
+我们实跑了其中 16 个(13 个出了结果),结论如下。[完整实测结果](#tested)在下面。
+
+- 🥇 **只想加一个审查 skill: [code-review-skill](https://github.com/awesome-skills/code-review-skill)**  
+  八个埋入的缺陷全部找到，干净 PR 上零误报，约一分钟，每个 PR 不到两条发现。这和不装任何东西的 Claude Code 一样：它带来的是成文的检查清单和固定的报告格式，不是更强的检出。
+- 🥈 **想让每次提交自动被审: [roborev](https://github.com/kenn-io/roborev)**  
+  你提交时它在后台审；这次换了一个模型（gpt-6-astra）来读，仍然八个全中，每个 PR 不到一条发现。比较慢：12 个 PR 用了 13 分钟。
+- 🥉 **宁可多等也不想看噪音: [adamsreview](https://github.com/adamjgmiller/adamsreview)**  
+  审完的部分一个没漏，也是最安静的：每个 PR 0.5 条发现，完成的七个带缺陷 PR 全部找到。我们给的 30 分钟内差一个没审完。
+
+**先弄清这几个不查什么:** brooks-lint (只查设计劣化；把卡号写进日志的 PR 给了 100/100); bug-hunter (不看测试文件，被削弱的测试会放过).
+
+不管选哪个，最难抓的缺陷不在业务代码里：13 个里有 4 个放过了悄悄削弱测试断言的 PR。测试的改动要自己看。
+
+*按找到的缺陷数、再按耗时排列。这套题分不出头部名次：不装任何工具的 Claude Code 一分钟找全 8 个缺陷、零误报，有 6 个工具结果相同。自带模型的工具用 gpt-6-astra 审，skill 用 Claude Opus 5.5 审，两组之间的差距可能来自模型。*
+
+
 ## 这些审查工具长什么样
 
 <table>
@@ -23,6 +41,7 @@
 
 ## 目录
 
+- [🧪 端到端实测](#tested)
 - [🔁 PR 机器人与 CI](#type-pr_bot) (39)
 - [🧩 Agent Skill](#type-skill) (30)
 - [⌨️ 本地与命令行](#type-cli) (66)
@@ -38,6 +57,33 @@
 4. 50 星及以上只看是否切题;50 星以下还要过 README 质量线(展示效果、一条命令上手、说清产出、文档完整),并且至少 5 星。
 
 这些问题由决策模型逐个读 README 回答,不是人工挑选。卡在线上的仓库可能判到任一边,归错了请提 issue。
+
+<a id="tested"></a>
+## 🧪 端到端实测
+
+2026-10-10 我们实跑了其中 16 个，跑成 13 个。每个在用完即删的沙箱里审同样的 12 个 PR（一个小型 Python 服务）：8 个各埋了一个缺陷（差一错误、SQL 注入、卡号写进日志、漏掉权限检查、永不结束的重试、吞掉的异常、写反的条件、被削弱的测试），4 个是干净的。按 SWR-Bench 的做法每个工具给两个数：找到几个缺陷、在干净 PR 上报了几条阻塞问题。评审是 gpt-6-astra，三遍取多数。不装任何工具的 Claude Code 做了同样的事，作为对照。
+
+**发现:** 没有工具超过对照组。不装任何东西的 Claude Code 约一分钟找全 8 个缺陷、零误报（每个 PR 1.8 条发现）；6 个工具与它持平，没有更好的。工具之间真正的差别是噪音（每个 PR 0.5 到 7.2 条发现）和耗时（1 到 30 分钟）。漏得最多的是被削弱的测试：13 个里有 4 个放过了。
+
+| # | 工具 | ★ | 找到缺陷（共 8 个） | 4 个干净 PR 上的误报 | 每个 PR 发现数 | 耗时 | 审查模型 |  |
+|---|---|---|---|---|---|---|---|---|
+| 1 | [code-review-skill](https://github.com/awesome-skills/code-review-skill) | 1,914 | 8/8 | 0 | 1.8 | 1 分钟 | Claude Opus 5.5 | [证据](https://agentskillshub.top/best-runs/review/awesome-skills__code-review-skill.html) |
+| 2 | [guard-skills](https://github.com/amElnagdy/guard-skills) | 1,153 | 8/8 | 0 | 1.4 | 2 分钟 | Claude Opus 5.5 | [证据](https://agentskillshub.top/best-runs/review/amElnagdy__guard-skills.html) |
+| 3 | [review-forge](https://github.com/vikingmute/review-forge) | 220 | 8/8 | 0 | 1.3 | 2 分钟 | Claude Opus 5.5 | [证据](https://agentskillshub.top/best-runs/review/vikingmute__review-forge.html) |
+| 4 | [clean-architecture-skills](https://github.com/nathankim0/clean-architecture-skills) | 90 | 8/8 | 0 | 2.7 | 2 分钟 | Claude Opus 5.5 | [证据](https://agentskillshub.top/best-runs/review/nathankim0__clean-architecture-skills.html) |
+| 5 | [open-code-review](https://github.com/spencermarx/open-code-review) | 331 | 8/8 | 0 | 7.2 | 11 分钟 | Claude Opus 5.5 | [证据](https://agentskillshub.top/best-runs/review/spencermarx__open-code-review.html) |
+| 6 | [roborev](https://github.com/kenn-io/roborev) | 1,746 | 8/8 | 0 | 0.9 | 13 分钟 | gpt-6-astra | [证据](https://agentskillshub.top/best-runs/review/kenn-io__roborev.html) |
+| 7 | [adamsreview](https://github.com/adamjgmiller/adamsreview) | 243 | 7/7 | 0 | 0.5 | 30 分钟 | Claude Opus 5.5 | [证据](https://agentskillshub.top/best-runs/review/adamjgmiller__adamsreview.html) |
+| 8 | [bug-hunter](https://github.com/codexstar69/bug-hunter) | 487 | 7/8 | 0 | 0.8 | 3 分钟 | Claude Opus 5.5 | [证据](https://agentskillshub.top/best-runs/review/codexstar69__bug-hunter.html) |
+| 9 | [open-code-review](https://github.com/alibaba/open-code-review) | 43,912 | 7/8 | 0 | 0.6 | 7 分钟 | gpt-6-astra | [证据](https://agentskillshub.top/best-runs/review/alibaba__open-code-review.html) |
+| 10 | [vet](https://github.com/imbue-ai/vet) | 519 | 7/8 | 0 | 1.1 | 18 分钟 | gpt-6-astra | [证据](https://agentskillshub.top/best-runs/review/imbue-ai__vet.html) |
+| 11 | [brooks-lint](https://github.com/hyhmrright/brooks-lint) | 1,506 | 5/8 | 0 | 0.9 | 3 分钟 | Claude Opus 5.5 | [证据](https://agentskillshub.top/best-runs/review/hyhmrright__brooks-lint.html) |
+| 12 | [gentleman-guardian-angel](https://github.com/Gentleman-Programming/gentleman-guardian-angel) | 1,180 | 5/8 | 见说明 | 6.0 | 9 分钟 | gpt-6-astra | [证据](https://agentskillshub.top/best-runs/review/Gentleman-Programming__gentleman-guardian-angel.html) |
+| 13 | [warden](https://github.com/getsentry/warden) | 414 | 4/8 | 0 | 0.5 | 25 分钟 | gpt-6-astra | [证据](https://agentskillshub.top/best-runs/review/getsentry__warden.html) |
+
+**未能实测:** cynical-sally (它把 diff 发到自己的托管服务，当时返回服务不可用。); git-lrc (它把 diff 发给 LiveReview 服务器，本地没有可用的。); claude-pr-review (它通过 Bitbucket API 审 Bitbucket 上的 PR，审不了本地分支。)
+
+[全部结果、提示词和脚本](https://github.com/zhuyansen/agent-skills-hub/blob/main/ops/review-runs/RESULTS.md) · [https://agentskillshub.top/best/code-review/#test-results](https://agentskillshub.top/best/code-review/?utm_source=github&utm_medium=awesome-list&utm_campaign=awesome-claude-code-review#test-results)
 
 <a id="type-pr_bot"></a>
 ## 🔁 PR 机器人与 CI
