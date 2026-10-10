@@ -1,0 +1,612 @@
+{
+ "AaronZ345/codebase-argus": {
+  "repo": "AaronZ345/codebase-argus",
+  "url": "https://raw.githubusercontent.com/AaronZ345/codebase-argus/HEAD/docs/assets/codebase-argus-home.png",
+  "alt": "Codebase Argus dashboard showing PR, CI, and downstream fork-sync review workflo",
+  "score": -2.7,
+  "type": "image/png",
+  "bytes": 297111,
+  "file": "AaronZ345__codebase-argus.jpg",
+  "still": "AaronZ345__codebase-argus.jpg"
+ },
+ "Addepar/RedFlag": {
+  "repo": "Addepar/RedFlag",
+  "url": "https://raw.githubusercontent.com/Addepar/RedFlag/main/docs/images/Report-Animated.gif",
+  "alt": "",
+  "score": 0.45,
+  "type": "image/gif",
+  "bytes": 6278613,
+  "file": "Addepar__RedFlag.gif",
+  "still": "Addepar__RedFlag.jpg"
+ },
+ "Aurite-ai/agent-verifier": {
+  "repo": "Aurite-ai/agent-verifier",
+  "url": "https://raw.githubusercontent.com/Aurite-ai/agent-verifier/HEAD/assets/agent_verifier.gif",
+  "alt": "demo",
+  "score": 4.75,
+  "type": "image/gif",
+  "bytes": 3256920,
+  "file": "Aurite-ai__agent-verifier.gif",
+  "still": "Aurite-ai__agent-verifier.jpg"
+ },
+ "Continuum-AI-Corp/Orca-Code-Review": {
+  "repo": "Continuum-AI-Corp/Orca-Code-Review",
+  "url": "https://raw.githubusercontent.com/Continuum-AI-Corp/Orca-Code-Review/HEAD/docs/demo-review.gif",
+  "alt": "Claude Code with the orca-review skill reviewing a pull request by number: plan,",
+  "score": 4.9,
+  "type": "image/gif",
+  "bytes": 3468323,
+  "file": "Continuum-AI-Corp__Orca-Code-Review.gif",
+  "still": "Continuum-AI-Corp__Orca-Code-Review.jpg"
+ },
+ "DanielT777/sieve": {
+  "repo": "DanielT777/sieve",
+  "url": "https://raw.githubusercontent.com/DanielT777/sieve/HEAD/assets/sieve.png",
+  "alt": "Sieve Logo",
+  "score": 0.0,
+  "type": "image/png",
+  "bytes": 79322,
+  "file": "DanielT777__sieve.jpg",
+  "still": "DanielT777__sieve.jpg"
+ },
+ "DeepCodeAI/vscode-extension": {
+  "repo": "DeepCodeAI/vscode-extension",
+  "url": "https://raw.githubusercontent.com/DeepCodeAI/vscode-extension/HEAD/images/on-premise-url.gif",
+  "alt": "DeepCode On-premise url",
+  "score": 2.9,
+  "type": "image/gif",
+  "bytes": 616280,
+  "file": "DeepCodeAI__vscode-extension.gif",
+  "still": "DeepCodeAI__vscode-extension.jpg"
+ },
+ "GGGODLIN/claude-pr-review": {
+  "repo": "GGGODLIN/claude-pr-review",
+  "url": "https://raw.githubusercontent.com/GGGODLIN/claude-pr-review/HEAD/assets/claude-pr-review-hero.png",
+  "alt": "claude-pr-review — Five review axes. One verified report.",
+  "score": -2.5,
+  "type": "image/png",
+  "bytes": 1032565,
+  "file": "GGGODLIN__claude-pr-review.jpg",
+  "still": "GGGODLIN__claude-pr-review.jpg"
+ },
+ "Gentleman-Programming/gentleman-guardian-angel": {
+  "repo": "Gentleman-Programming/gentleman-guardian-angel",
+  "url": "https://github.com/user-attachments/assets/e534ba1e-0044-45c7-a788-b455733c0052",
+  "alt": "image",
+  "score": 0.0,
+  "type": "image/png",
+  "bytes": 482688,
+  "file": "Gentleman-Programming__gentleman-guardian-angel.jpg",
+  "still": "Gentleman-Programming__gentleman-guardian-angel.jpg"
+ },
+ "Gil2015/code-gate": {
+  "repo": "Gil2015/code-gate",
+  "url": "https://raw.githubusercontent.com/Gil2015/code-gate/HEAD/assets/review.png",
+  "alt": "Code Gate example",
+  "score": 1.8,
+  "type": "image/png",
+  "bytes": 490251,
+  "file": "Gil2015__code-gate.jpg",
+  "still": "Gil2015__code-gate.jpg"
+ },
+ "Integral-Healthcare/robin-ai-reviewer": {
+  "repo": "Integral-Healthcare/robin-ai-reviewer",
+  "url": "https://raw.githubusercontent.com/Integral-Healthcare/robin-ai-reviewer/HEAD/assets/robin.png",
+  "alt": "Robin watercolor image",
+  "score": -0.1,
+  "type": "image/png",
+  "bytes": 1475582,
+  "file": "Integral-Healthcare__robin-ai-reviewer.jpg",
+  "still": "Integral-Healthcare__robin-ai-reviewer.jpg"
+ },
+ "Nayjest/Gito": {
+  "repo": "Nayjest/Gito",
+  "url": "https://github.com/user-attachments/assets/4bdfe954-9c0e-4df1-8e9c-4ea8b43b4f79",
+  "alt": "image",
+  "score": -0.4,
+  "type": "image/png",
+  "bytes": 133328,
+  "file": "Nayjest__Gito.jpg",
+  "still": "Nayjest__Gito.jpg"
+ },
+ "ReviewStage/stage-cli": {
+  "repo": "ReviewStage/stage-cli",
+  "url": "https://raw.githubusercontent.com/ReviewStage/stage-cli/main/assets/screenshot.png",
+  "alt": "Stage CLI",
+  "score": -2.7,
+  "type": "image/png",
+  "bytes": 1853175,
+  "file": "ReviewStage__stage-cli.jpg",
+  "still": "ReviewStage__stage-cli.jpg"
+ },
+ "SomeStay07/code-review-agent": {
+  "repo": "SomeStay07/code-review-agent",
+  "url": "https://raw.githubusercontent.com/SomeStay07/code-review-agent/HEAD/assets/demo.gif",
+  "alt": "Code Reviewer Agent demo — review output in terminal",
+  "score": 4.75,
+  "type": "image/gif",
+  "bytes": 185329,
+  "file": "SomeStay07__code-review-agent.gif",
+  "still": "SomeStay07__code-review-agent.jpg"
+ },
+ "Teycir/Assumptions": {
+  "repo": "Teycir/Assumptions",
+  "url": "https://raw.githubusercontent.com/Teycir/Assumptions/HEAD/assets/demo.gif",
+  "alt": "Assumptions Promo",
+  "score": 4.5,
+  "type": "image/gif",
+  "bytes": 7487195,
+  "file": "Teycir__Assumptions.gif",
+  "still": "Teycir__Assumptions.jpg"
+ },
+ "The-PR-Agent/pr-agent": {
+  "repo": "The-PR-Agent/pr-agent",
+  "url": "https://www.codium.ai/images/pr_agent/describe_new_short_main.png",
+  "alt": "",
+  "score": -0.15,
+  "type": "image/png",
+  "bytes": 124930,
+  "file": "The-PR-Agent__pr-agent.jpg",
+  "still": "The-PR-Agent__pr-agent.jpg"
+ },
+ "VirtusLab/tulip": {
+  "repo": "VirtusLab/tulip",
+  "url": "https://raw.githubusercontent.com/VirtusLab/tulip/HEAD/screens/code.png",
+  "alt": "A prose explanation interleaved with a syntax-highlighted side-by-side diff",
+  "score": -0.05,
+  "type": "image/png",
+  "bytes": 928874,
+  "file": "VirtusLab__tulip.jpg",
+  "still": "VirtusLab__tulip.jpg"
+ },
+ "ZephyrDeng/pi-review": {
+  "repo": "ZephyrDeng/pi-review",
+  "url": "https://raw.githubusercontent.com/ZephyrDeng/pi-review/HEAD/docs/assets/panel-live-pi.jpg",
+  "alt": "Pi Review Panel: correctness, security and testing reviewers running live with m",
+  "score": -0.25,
+  "type": "image/jpeg",
+  "bytes": 54926,
+  "file": "ZephyrDeng__pi-review.jpg",
+  "still": "ZephyrDeng__pi-review.jpg"
+ },
+ "agentgg-dev/agentgg": {
+  "repo": "agentgg-dev/agentgg",
+  "url": "https://raw.githubusercontent.com/agentgg-dev/agentgg/main/static/agentgg-view.png",
+  "alt": "agentgg viewer UI showing scan findings",
+  "score": -0.05,
+  "type": "image/png",
+  "bytes": 130905,
+  "file": "agentgg-dev__agentgg.jpg",
+  "still": "agentgg-dev__agentgg.jpg"
+ },
+ "alibaba/open-code-review": {
+  "repo": "alibaba/open-code-review",
+  "url": "https://raw.githubusercontent.com/alibaba/open-code-review/HEAD/imgs/highlights-en.png",
+  "alt": "Highlights",
+  "score": -0.8,
+  "type": "image/png",
+  "bytes": 53992,
+  "file": "alibaba__open-code-review.jpg",
+  "still": "alibaba__open-code-review.jpg"
+ },
+ "alxnddr/reviewer": {
+  "repo": "alxnddr/reviewer",
+  "url": "https://raw.githubusercontent.com/alxnddr/reviewer/HEAD/assets/screenshot.png",
+  "alt": "Reviewer showing a diff grouped into ordered layers with anchored review comment",
+  "score": -2.5,
+  "type": "image/png",
+  "bytes": 1148075,
+  "file": "alxnddr__reviewer.jpg",
+  "still": "alxnddr__reviewer.jpg"
+ },
+ "amix/dunk": {
+  "repo": "amix/dunk",
+  "url": "https://github.com/user-attachments/assets/f28fe57a-e833-49ea-846a-91310e403e77",
+  "alt": "dunk alongside Claude Code",
+  "score": 0.0,
+  "type": "image/png",
+  "bytes": 2921369,
+  "file": "amix__dunk.jpg",
+  "still": "amix__dunk.jpg"
+ },
+ "buxuku/ai-code-reviewer": {
+  "repo": "buxuku/ai-code-reviewer",
+  "url": "https://raw.githubusercontent.com/buxuku/ai-code-reviewer/HEAD/preview.png",
+  "alt": "",
+  "score": 2.0,
+  "type": "image/png",
+  "bytes": 114134,
+  "file": "buxuku__ai-code-reviewer.jpg",
+  "still": "buxuku__ai-code-reviewer.jpg"
+ },
+ "chorus-codes/chorus": {
+  "repo": "chorus-codes/chorus",
+  "url": "https://raw.githubusercontent.com/chorus-codes/chorus/HEAD/docs/images/hero-demo.gif",
+  "alt": "Six AI reviewers streaming verdicts in parallel — Chorus running live",
+  "score": 2.2,
+  "type": "image/gif",
+  "bytes": 4599464,
+  "file": "chorus-codes__chorus.gif",
+  "still": "chorus-codes__chorus.jpg"
+ },
+ "codexstar69/bug-hunter": {
+  "repo": "codexstar69/bug-hunter",
+  "url": "https://raw.githubusercontent.com/codexstar69/bug-hunter/183e0a957bd22ea5df83741cd31e396f68b14ae5/docs/images/doc-verify-fix-plan.png",
+  "alt": "Bug Hunter checks version-sensitive framework behavior against documentation bef",
+  "score": 1.6,
+  "type": "image/png",
+  "bytes": 3243452,
+  "file": "codexstar69__bug-hunter.jpg",
+  "still": "codexstar69__bug-hunter.jpg"
+ },
+ "devagrawal09/jev-review": {
+  "repo": "devagrawal09/jev-review",
+  "url": "https://raw.githubusercontent.com/devagrawal09/jev-review/HEAD/docs/dashboard.png",
+  "alt": "Jev Review dashboard",
+  "score": -2.5,
+  "type": "image/png",
+  "bytes": 129019,
+  "file": "devagrawal09__jev-review.jpg",
+  "still": "devagrawal09__jev-review.jpg"
+ },
+ "egma-ai/jev-code-reviewer": {
+  "repo": "egma-ai/jev-code-reviewer",
+  "url": "https://raw.githubusercontent.com/egma-ai/jev-code-reviewer/HEAD/docs/preview.png",
+  "alt": "Jev-Code-Reviewer on the demonstration PR",
+  "score": 2.0,
+  "type": "image/png",
+  "bytes": 146675,
+  "file": "egma-ai__jev-code-reviewer.jpg",
+  "still": "egma-ai__jev-code-reviewer.jpg"
+ },
+ "fabriziosalmi/brutal-coding-tool": {
+  "repo": "fabriziosalmi/brutal-coding-tool",
+  "url": "https://raw.githubusercontent.com/fabriziosalmi/brutal-coding-tool/HEAD/screenshot.png",
+  "alt": "App Screenshot",
+  "score": -2.5,
+  "type": "image/png",
+  "bytes": 712104,
+  "file": "fabriziosalmi__brutal-coding-tool.jpg",
+  "still": "fabriziosalmi__brutal-coding-tool.jpg"
+ },
+ "fivetaku/insane-review": {
+  "repo": "fivetaku/insane-review",
+  "url": "https://raw.githubusercontent.com/fivetaku/insane-review/HEAD/assets/hero.png",
+  "alt": "insane-review cinematic hero",
+  "score": -2.5,
+  "type": "image/png",
+  "bytes": 2174610,
+  "file": "fivetaku__insane-review.jpg",
+  "still": "fivetaku__insane-review.jpg"
+ },
+ "get-tmonier/argot": {
+  "repo": "get-tmonier/argot",
+  "url": "https://raw.githubusercontent.com/get-tmonier/argot/HEAD/docs/demo/proof/audit.gif",
+  "alt": "Authored two-commit fixture: `argot audit --commits 1` reports one foreign token",
+  "score": 2.0,
+  "type": "image/gif",
+  "bytes": 321977,
+  "file": "get-tmonier__argot.gif",
+  "still": "get-tmonier__argot.jpg"
+ },
+ "gitbito/CodeReviewAgent": {
+  "repo": "gitbito/CodeReviewAgent",
+  "url": "https://i.imgur.com/iUFnfuK.png",
+  "alt": "See Bito's AI Code Review work",
+  "score": -0.05,
+  "type": "image/png",
+  "bytes": 610782,
+  "file": "gitbito__CodeReviewAgent.jpg",
+  "still": "gitbito__CodeReviewAgent.jpg"
+ },
+ "hyhmrright/brooks-lint": {
+  "repo": "hyhmrright/brooks-lint",
+  "url": "https://raw.githubusercontent.com/hyhmrright/brooks-lint/HEAD/assets/demo.gif",
+  "alt": "brooks-lint reviewing code: a /brooks-review command produces a 28/100 health sc",
+  "score": 4.6,
+  "type": "image/gif",
+  "bytes": 135124,
+  "file": "hyhmrright__brooks-lint.gif",
+  "still": "hyhmrright__brooks-lint.jpg"
+ },
+ "imDarshanGK/AI-dev-assistant": {
+  "repo": "imDarshanGK/AI-dev-assistant",
+  "url": "https://raw.githubusercontent.com/imDarshanGK/AI-dev-assistant/HEAD/assets/preview.png",
+  "alt": "QyverixAI Preview",
+  "score": 1.1,
+  "type": "image/png",
+  "bytes": 191122,
+  "file": "imDarshanGK__AI-dev-assistant.jpg",
+  "still": "imDarshanGK__AI-dev-assistant.jpg"
+ },
+ "in-the-loop-labs/pair-review": {
+  "repo": "in-the-loop-labs/pair-review",
+  "url": "https://raw.githubusercontent.com/in-the-loop-labs/pair-review/main/docs/screenshot.png",
+  "alt": "pair-review screenshot",
+  "score": -2.65,
+  "type": "image/png",
+  "bytes": 1210234,
+  "file": "in-the-loop-labs__pair-review.jpg",
+  "still": "in-the-loop-labs__pair-review.jpg"
+ },
+ "itsmesherry/claude-audit": {
+  "repo": "itsmesherry/claude-audit",
+  "url": "https://raw.githubusercontent.com/itsmesherry/claude-audit/HEAD/media/demo.gif",
+  "alt": "claude-audit demo",
+  "score": 5.0,
+  "type": "image/gif",
+  "bytes": 5594680,
+  "file": "itsmesherry__claude-audit.gif",
+  "still": "itsmesherry__claude-audit.jpg"
+ },
+ "jsliapark/preflight": {
+  "repo": "jsliapark/preflight",
+  "url": "https://github.com/user-attachments/assets/2f7c402b-7886-42a3-8243-48c22388b339",
+  "alt": "preflight review demo",
+  "score": 1.8,
+  "type": "image/gif",
+  "bytes": 149509,
+  "file": "jsliapark__preflight.gif",
+  "still": "jsliapark__preflight.jpg"
+ },
+ "kenn-io/roborev": {
+  "repo": "kenn-io/roborev",
+  "url": "https://roborev.io/docs/assets/generated/web-ui.png",
+  "alt": "Roborev browser application",
+  "score": -0.2,
+  "type": "image/png",
+  "bytes": 210035,
+  "file": "kenn-io__roborev.jpg",
+  "still": "kenn-io__roborev.jpg"
+ },
+ "kunkka19xx/lgtm": {
+  "repo": "kunkka19xx/lgtm",
+  "url": "https://github.com/user-attachments/assets/2c585a09-129f-4377-bfca-ce25ceb2f704",
+  "alt": "side-by-side",
+  "score": 0.0,
+  "type": "image/png",
+  "bytes": 569500,
+  "file": "kunkka19xx__lgtm.jpg",
+  "still": "kunkka19xx__lgtm.jpg"
+ },
+ "lohani-mohit/shipcheck": {
+  "repo": "lohani-mohit/shipcheck",
+  "url": "https://raw.githubusercontent.com/lohani-mohit/shipcheck/HEAD/assets/demo.gif",
+  "alt": "shipcheck catching a dropped-429 regression and returning DO NOT SHIP",
+  "score": 4.8,
+  "type": "image/gif",
+  "bytes": 242942,
+  "file": "lohani-mohit__shipcheck.gif",
+  "still": "lohani-mohit__shipcheck.jpg"
+ },
+ "matheusfillipe/diffler": {
+  "repo": "matheusfillipe/diffler",
+  "url": "https://raw.githubusercontent.com/matheusfillipe/diffler/HEAD/assets/demo.gif",
+  "alt": "diffler reviewing an agent's change: word-level diff highlights, an inline comme",
+  "score": 4.85,
+  "type": "image/gif",
+  "bytes": 3988294,
+  "file": "matheusfillipe__diffler.gif",
+  "still": "matheusfillipe__diffler.jpg"
+ },
+ "mikker/semantic-review": {
+  "repo": "mikker/semantic-review",
+  "url": "https://raw.githubusercontent.com/mikker/semantic-review/HEAD/semantic-review.webp",
+  "alt": "",
+  "score": 0.0,
+  "type": "image/webp",
+  "bytes": 130770,
+  "file": "mikker__semantic-review.jpg",
+  "still": "mikker__semantic-review.jpg"
+ },
+ "nathankim0/clean-architecture-skills": {
+  "repo": "nathankim0/clean-architecture-skills",
+  "url": "https://github.com/user-attachments/assets/e0b26116-97c8-4062-b323-ad7239f66006",
+  "alt": "Clean Architecture Skills",
+  "score": -2.5,
+  "type": "image/png",
+  "bytes": 1448244,
+  "file": "nathankim0__clean-architecture-skills.jpg",
+  "still": "nathankim0__clean-architecture-skills.jpg"
+ },
+ "ncoevoet/claude-review-all": {
+  "repo": "ncoevoet/claude-review-all",
+  "url": "https://raw.githubusercontent.com/ncoevoet/claude-review-all/HEAD/docs/demo.png",
+  "alt": "/review-all report",
+  "score": -0.7,
+  "type": "image/png",
+  "bytes": 331186,
+  "file": "ncoevoet__claude-review-all.jpg",
+  "still": "ncoevoet__claude-review-all.jpg"
+ },
+ "nicobailon/pi-review-loop": {
+  "repo": "nicobailon/pi-review-loop",
+  "url": "https://raw.githubusercontent.com/nicobailon/pi-review-loop/HEAD/review-loop.png",
+  "alt": "pi-review-loop",
+  "score": 0.0,
+  "type": "image/png",
+  "bytes": 1396691,
+  "file": "nicobailon__pi-review-loop.jpg",
+  "still": "nicobailon__pi-review-loop.jpg"
+ },
+ "openqa-cn/codexqa": {
+  "repo": "openqa-cn/codexqa",
+  "url": "https://raw.githubusercontent.com/openqa-cn/codexqa/HEAD/docs/assets/previews/code-analyzer.png",
+  "alt": "codexqa-code-analyzer change-impact graph",
+  "score": -0.5,
+  "type": "image/png",
+  "bytes": 235456,
+  "file": "openqa-cn__codexqa.jpg",
+  "still": "openqa-cn__codexqa.jpg"
+ },
+ "persiyanov/herdr-reviewr": {
+  "repo": "persiyanov/herdr-reviewr",
+  "url": "https://raw.githubusercontent.com/persiyanov/herdr-reviewr/HEAD/assets/demo.gif",
+  "alt": "demo",
+  "score": 4.8,
+  "type": "image/gif",
+  "bytes": 228233,
+  "file": "persiyanov__herdr-reviewr.gif",
+  "still": "persiyanov__herdr-reviewr.jpg"
+ },
+ "presubmit/ai-reviewer": {
+  "repo": "presubmit/ai-reviewer",
+  "url": "https://raw.githubusercontent.com/presubmit/ai-reviewer/main/assets/review_example_3.png",
+  "alt": "AI Code Review example",
+  "score": 1.8,
+  "type": "image/png",
+  "bytes": 102295,
+  "file": "presubmit__ai-reviewer.jpg",
+  "still": "presubmit__ai-reviewer.jpg"
+ },
+ "puemos/lareview": {
+  "repo": "puemos/lareview",
+  "url": "https://raw.githubusercontent.com/puemos/lareview/HEAD/assets/screenshots/generate.webp",
+  "alt": "Plan Generation View",
+  "score": -0.3,
+  "type": "image/webp",
+  "bytes": 251234,
+  "file": "puemos__lareview.jpg",
+  "still": "puemos__lareview.jpg"
+ },
+ "qiniu/reviewbot": {
+  "repo": "qiniu/reviewbot",
+  "url": "https://raw.githubusercontent.com/qiniu/reviewbot/HEAD/docs/static/issue-comment.png",
+  "alt": "Issue Comment",
+  "score": -0.15,
+  "type": "image/png",
+  "bytes": 119182,
+  "file": "qiniu__reviewbot.jpg",
+  "still": "qiniu__reviewbot.jpg"
+ },
+ "spencermarx/open-code-review": {
+  "repo": "spencermarx/open-code-review",
+  "url": "https://raw.githubusercontent.com/spencermarx/open-code-review/HEAD/assets/ocr-tool-focused-review.png",
+  "alt": "OCR review output with findings",
+  "score": 1.8,
+  "type": "image/png",
+  "bytes": 573189,
+  "file": "spencermarx__open-code-review.jpg",
+  "still": "spencermarx__open-code-review.jpg"
+ },
+ "spherical-up/Easy-AI-CodeReview": {
+  "repo": "spherical-up/Easy-AI-CodeReview",
+  "url": "https://raw.githubusercontent.com/spherical-up/Easy-AI-CodeReview/HEAD/docs/img/push_example.png",
+  "alt": "Push图片",
+  "score": 1.95,
+  "type": "image/png",
+  "bytes": 1701724,
+  "file": "spherical-up__Easy-AI-CodeReview.jpg",
+  "still": "spherical-up__Easy-AI-CodeReview.jpg"
+ },
+ "sturdy-dev/codeball-action": {
+  "repo": "sturdy-dev/codeball-action",
+  "url": "https://user-images.githubusercontent.com/47952/173048697-d3d39fc3-6238-4fc3-9baf-ccbbb3b4258c.png",
+  "alt": "Codeball",
+  "score": 0.0,
+  "type": "image/png",
+  "bytes": 687266,
+  "file": "sturdy-dev__codeball-action.jpg",
+  "still": "sturdy-dev__codeball-action.jpg"
+ },
+ "syabro/rejudge": {
+  "repo": "syabro/rejudge",
+  "url": "https://raw.githubusercontent.com/syabro/rejudge/HEAD/docs/demo.gif",
+  "alt": "Three models check a file while the judge waits, then queries the panel",
+  "score": 5.0,
+  "type": "image/gif",
+  "bytes": 917547,
+  "file": "syabro__rejudge.gif",
+  "still": "syabro__rejudge.jpg"
+ },
+ "tanviet12/vbsec": {
+  "repo": "tanviet12/vbsec",
+  "url": "https://raw.githubusercontent.com/tanviet12/vbsec/HEAD/docs/images/sample-report.png",
+  "alt": "vbsec report: verdict FAIL, table of 6 critical issues",
+  "score": -0.75,
+  "type": "image/png",
+  "bytes": 200720,
+  "file": "tanviet12__vbsec.jpg",
+  "still": "tanviet12__vbsec.jpg"
+ },
+ "taovc/pr-cockpit": {
+  "repo": "taovc/pr-cockpit",
+  "url": "https://raw.githubusercontent.com/taovc/pr-cockpit/HEAD/docs/media/demo.gif",
+  "alt": "Pull a repo",
+  "score": 4.65,
+  "type": "image/gif",
+  "bytes": 2396279,
+  "file": "taovc__pr-cockpit.gif",
+  "still": "taovc__pr-cockpit.jpg"
+ },
+ "tirth8205/code-review-graph": {
+  "repo": "tirth8205/code-review-graph",
+  "url": "https://raw.githubusercontent.com/tirth8205/code-review-graph/HEAD/diagrams/diagram1_before_vs_after.png",
+  "alt": "The Token Problem: reading flask",
+  "score": -3.0,
+  "type": "image/png",
+  "bytes": 265243,
+  "file": "tirth8205__code-review-graph.jpg",
+  "still": "tirth8205__code-review-graph.jpg"
+ },
+ "truongnh1992/gemini-ai-code-reviewer": {
+  "repo": "truongnh1992/gemini-ai-code-reviewer",
+  "url": "https://raw.githubusercontent.com/truongnh1992/gemini-ai-code-reviewer/HEAD/assets/img/Demo.png",
+  "alt": "Demo",
+  "score": 2.0,
+  "type": "image/png",
+  "bytes": 510499,
+  "file": "truongnh1992__gemini-ai-code-reviewer.jpg",
+  "still": "truongnh1992__gemini-ai-code-reviewer.jpg"
+ },
+ "truskovskiyk/pr-reviewer": {
+  "repo": "truskovskiyk/pr-reviewer",
+  "url": "https://raw.githubusercontent.com/truskovskiyk/pr-reviewer/HEAD/docs/example.png",
+  "alt": "alt text",
+  "score": 2.0,
+  "type": "image/png",
+  "bytes": 112565,
+  "file": "truskovskiyk__pr-reviewer.jpg",
+  "still": "truskovskiyk__pr-reviewer.jpg"
+ },
+ "umputun/revmux": {
+  "repo": "umputun/revmux",
+  "url": "https://raw.githubusercontent.com/umputun/revmux/HEAD/site/assets/screenshot-run.webp",
+  "alt": "revmux running four agents, shown as a terminal overlay above the session that l",
+  "score": -2.6,
+  "type": "image/webp",
+  "bytes": 185948,
+  "file": "umputun__revmux.jpg",
+  "still": "umputun__revmux.jpg"
+ },
+ "verabravo/diffback": {
+  "repo": "verabravo/diffback",
+  "url": "https://raw.githubusercontent.com/verabravo/diffback/main/docs/screenshot-diff-view.png",
+  "alt": "diffback diff view with syntax highlighting",
+  "score": -2.5,
+  "type": "image/png",
+  "bytes": 145486,
+  "file": "verabravo__diffback.jpg",
+  "still": "verabravo__diffback.jpg"
+ },
+ "w1ckedxt/cynical-sally": {
+  "repo": "w1ckedxt/cynical-sally",
+  "url": "https://raw.githubusercontent.com/w1ckedxt/cynical-sally/HEAD/assets/demo.gif",
+  "alt": "sally roast — a real review, live in the terminal",
+  "score": 4.5,
+  "type": "image/gif",
+  "bytes": 330979,
+  "file": "w1ckedxt__cynical-sally.gif",
+  "still": "w1ckedxt__cynical-sally.jpg"
+ },
+ "zanetworker/highstakes": {
+  "repo": "zanetworker/highstakes",
+  "url": "https://raw.githubusercontent.com/zanetworker/highstakes/HEAD/docs/images/treemap-view.png",
+  "alt": "HighStakes treemap view",
+  "score": 0.0,
+  "type": "image/png",
+  "bytes": 311031,
+  "file": "zanetworker__highstakes.jpg",
+  "still": "zanetworker__highstakes.jpg"
+ }
+}
