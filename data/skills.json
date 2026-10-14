@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-10",
+ "generated": "2026-10-14",
  "source": "https://agentskillshub.top/best/code-review/",
  "kinds": [
   {
@@ -43,7 +43,7 @@
   {
    "repo_full_name": "The-PR-Agent/pr-agent",
    "path": null,
-   "stars": 13322,
+   "stars": 13385,
    "description": "🚀 PR Agent: The Original Open-Source PR Reviewer. This project is not the Qodo free tier.",
    "kind": "pr_bot",
    "security_grade": "safe",
@@ -53,7 +53,7 @@
   {
    "repo_full_name": "mattzcarey/shippie",
    "path": null,
-   "stars": 2508,
+   "stars": 2509,
    "description": "extendable code review and QA agent 🚢",
    "kind": "pr_bot",
    "security_grade": "safe",
@@ -63,7 +63,7 @@
   {
    "repo_full_name": "sourcery-ai/sourcery",
    "path": null,
-   "stars": 1874,
+   "stars": 1877,
    "description": "Instant AI code reviews",
    "kind": "pr_bot",
    "security_grade": "safe",
@@ -73,7 +73,7 @@
   {
    "repo_full_name": "vercel-labs/openreview",
    "path": null,
-   "stars": 1695,
+   "stars": 1694,
    "description": "An open-source, self-hosted AI code review bot powered by Vercel.",
    "kind": "pr_bot",
    "security_grade": "safe",
@@ -83,7 +83,7 @@
   {
    "repo_full_name": "villesau/ai-codereviewer",
    "path": null,
-   "stars": 1043,
+   "stars": 1044,
    "description": "AI Code Reviewer: Enhance your GitHub workflow with AI-powered code review! Get intelligent feedback and suggestions on pull requests using OpenAI's GPT-4 API, improving code quality and saving developers time.",
    "kind": "pr_bot",
    "security_grade": "safe",
@@ -93,7 +93,7 @@
   {
    "repo_full_name": "Nikita-Filonov/ai-review",
    "path": null,
-   "stars": 589,
+   "stars": 595,
    "description": "🚀 AI-powered code review tool for GitHub, GitLab, Bitbucket Cloud, Bitbucket Server, Azure DevOps and Gitea — built with LLMs like OpenAI, Claude, Gemini, Ollama, Bedrock, OpenRouter and Azure OpenAI",
    "kind": "pr_bot",
    "security_grade": "safe",
@@ -103,7 +103,7 @@
   {
    "repo_full_name": "Nayjest/Gito",
    "path": null,
-   "stars": 445,
+   "stars": 447,
    "description": "An AI-powered GitHub code review tool that uses LLMs to detect high-confidence, high-impact issues—such as security vulnerabilities, bugs, and maintainability concerns.",
    "kind": "pr_bot",
    "security_grade": "safe",
@@ -123,7 +123,7 @@
   {
    "repo_full_name": "sturdy-dev/codeball-action",
    "path": null,
-   "stars": 326,
+   "stars": 327,
    "description": "🔮 Codeball – AI Code Review that finds bugs and fast-tracks your code",
    "kind": "pr_bot",
    "security_grade": "safe",
@@ -163,7 +163,7 @@
   {
    "repo_full_name": "spherical-up/Easy-AI-CodeReview",
    "path": null,
-   "stars": 242,
+   "stars": 243,
    "description": "这是一个专为开发者打造的高效 Code Review 工具，旨在提升代码审查质量、降低沟通成本，并加速团队协作流程。通过智能比对、注释建议、变更摘要、代码质量提示等功能，帮助开发者更快地理解提交内容、发现潜在问题，让每一次 Review 更加清晰、高效、有价值。",
    "kind": "pr_bot",
    "security_grade": "safe",
@@ -183,7 +183,7 @@
   {
    "repo_full_name": "presubmit/ai-reviewer",
    "path": null,
-   "stars": 187,
+   "stars": 188,
    "description": "Context-aware AI reviewer for Pull Requests. Instant summary, line-by-line comments, title generation and more",
    "kind": "pr_bot",
    "security_grade": "safe",
@@ -193,7 +193,7 @@
   {
    "repo_full_name": "Juror-AI/juror",
    "path": null,
-   "stars": 120,
+   "stars": 122,
    "description": "Cheaper and better Greptile alternative runs on your own github actions.",
    "kind": "pr_bot",
    "security_grade": "safe",
@@ -213,7 +213,7 @@
   {
    "repo_full_name": "octopusreview/octopus",
    "path": null,
-   "stars": 108,
+   "stars": 110,
    "description": "AI-powered PR review tool — multi-armed code analysis, no bug escapes 🐙",
    "kind": "pr_bot",
    "security_grade": "safe",
@@ -273,7 +273,7 @@
   {
    "repo_full_name": "feiskyer/ChatGPT-Reviewer",
    "path": null,
-   "stars": 84,
+   "stars": 87,
    "description": "Automated pull requests reviewing and issues triaging with ChatGPT.",
    "kind": "pr_bot",
    "security_grade": "safe",
@@ -293,7 +293,7 @@
   {
    "repo_full_name": "ccsert/opencode-review-gitea",
    "path": null,
-   "stars": 74,
+   "stars": 75,
    "description": "AI-powered PR review for Gitea/Forgejo built on OpenCode. Runs in Gitea Actions, fetches PR diffs, and posts structured reviews. Supports Docker or source install with isolated .opencode-review config.",
    "kind": "pr_bot",
    "security_grade": "safe",
@@ -391,6 +391,16 @@
    "license": "MIT"
   },
   {
+   "repo_full_name": "electricsheephq/evaos-code-review-bot-neondiff",
+   "path": null,
+   "stars": 51,
+   "description": "Stop giving away your code. NeonDIFF is your local-first AI PR reviewer for teams that want professional quality code reviews and issue enrichment without handing every diff to a hosted review SaaS.",
+   "kind": "pr_bot",
+   "security_grade": "safe",
+   "language": "TypeScript",
+   "license": "NOASSERTION"
+  },
+  {
    "repo_full_name": "ellenhp/auditlm",
    "path": null,
    "stars": 51,
@@ -399,16 +409,6 @@
    "security_grade": "safe",
    "language": "Rust",
    "license": "AGPL-3.0"
-  },
-  {
-   "repo_full_name": "electricsheephq/evaos-code-review-bot-neondiff",
-   "path": null,
-   "stars": 50,
-   "description": "Stop giving away your code. NeonDIFF is your local-first AI PR reviewer for teams that want professional quality code reviews and issue enrichment without handing every diff to a hosted review SaaS.",
-   "kind": "pr_bot",
-   "security_grade": "safe",
-   "language": "TypeScript",
-   "license": "NOASSERTION"
   },
   {
    "repo_full_name": "selimozten/elek",
@@ -433,7 +433,7 @@
   {
    "repo_full_name": "openai/codex-plugin-cc",
    "path": null,
-   "stars": 34026,
+   "stars": 34200,
    "description": "Use Codex from Claude Code to review code or delegate tasks.",
    "kind": "skill",
    "security_grade": "safe",
@@ -443,7 +443,7 @@
   {
    "repo_full_name": "awesome-skills/code-review-skill",
    "path": null,
-   "stars": 2078,
+   "stars": 2100,
    "description": "A comprehensive code review skill for Claude Code, covering React 19, Vue 3, Rust, TypeScript, TanStack Query v5, and more.",
    "kind": "skill",
    "security_grade": "safe",
@@ -453,7 +453,7 @@
   {
    "repo_full_name": "hyhmrright/brooks-lint",
    "path": null,
-   "stars": 1513,
+   "stars": 1524,
    "description": "AI code reviews grounded in 12 classic engineering books — decay risk diagnostics with book citations, severity labels, and 6 analysis modes including full-sweep auto-fix",
    "kind": "skill",
    "security_grade": "safe",
@@ -463,7 +463,7 @@
   {
    "repo_full_name": "amElnagdy/guard-skills",
    "path": null,
-   "stars": 1261,
+   "stars": 1265,
    "description": "Guard skills for coding agents, quality gates that catch AI-generated failure modes in code, tests, and docs",
    "kind": "skill",
    "security_grade": "safe",
@@ -493,7 +493,7 @@
   {
    "repo_full_name": "greptileai/skills",
    "path": null,
-   "stars": 413,
+   "stars": 418,
    "description": "Agent skill for checking PR review comments, status checks, and description completeness",
    "kind": "skill",
    "security_grade": "safe",
@@ -503,7 +503,7 @@
   {
    "repo_full_name": "vikingmute/review-forge",
    "path": null,
-   "stars": 225,
+   "stars": 223,
    "description": "review-forge is an Agent Skill for structured, auditable code review workflows",
    "kind": "skill",
    "security_grade": "safe",
@@ -513,7 +513,7 @@
   {
    "repo_full_name": "Continuum-AI-Corp/Orca-Code-Review",
    "path": null,
-   "stars": 174,
+   "stars": 175,
    "description": "OrcaCode Review — the open code review harness. Multi-model reviews, merge gates, and no markup. Pay only for inference.",
    "kind": "skill",
    "security_grade": "safe",
@@ -523,7 +523,7 @@
   {
    "repo_full_name": "win4r/agent-skills-code-review-router",
    "path": null,
-   "stars": 125,
+   "stars": 124,
    "description": null,
    "kind": "skill",
    "security_grade": "safe",
@@ -541,10 +541,20 @@
    "license": "MIT"
   },
   {
+   "repo_full_name": "rediga/Salesforce-Code-Review-Agent",
+   "path": null,
+   "stars": 104,
+   "description": "Salesforce DX code review: Apex, LWC, Flows, security (CRUD/FLS), governors, and Bugbot.",
+   "kind": "skill",
+   "security_grade": "safe",
+   "language": "PowerShell",
+   "license": "MIT"
+  },
+  {
    "repo_full_name": "nathankim0/clean-architecture-skills",
    "path": null,
-   "stars": 97,
-   "description": "Claude Code skill for reviewing and designing code based on Clean Architecture principles (Dependency Rule, Layer Structure, SOLID)",
+   "stars": 99,
+   "description": "Clean Architecture and Kent Beck refactoring skills for Claude Code and OpenAI Codex: code review, architecture design, SOLID, and simple design.",
    "kind": "skill",
    "security_grade": "safe",
    "language": null,
@@ -553,7 +563,7 @@
   {
    "repo_full_name": "w1ckedxt/cynical-sally",
    "path": null,
-   "stars": 96,
+   "stars": 97,
    "description": "Brutally honest senior-engineer code reviews for Claude Code, Cursor & Windsurf -  and your terminal. Scores, evidence-backed issues, usable fixes.",
    "kind": "skill",
    "security_grade": "safe",
@@ -561,19 +571,9 @@
    "license": "MIT"
   },
   {
-   "repo_full_name": "rediga/Salesforce-Code-Review-Agent",
-   "path": null,
-   "stars": 93,
-   "description": "Salesforce DX code review: Apex, LWC, Flows, security (CRUD/FLS), governors, and Bugbot.",
-   "kind": "skill",
-   "security_grade": "safe",
-   "language": "PowerShell",
-   "license": "MIT"
-  },
-  {
    "repo_full_name": "akkie76/code-review-skills",
    "path": null,
-   "stars": 82,
+   "stars": 83,
    "description": "Evidence-based code review skills for Codex and Claude Code",
    "kind": "skill",
    "security_grade": "safe",
@@ -733,7 +733,7 @@
   {
    "repo_full_name": "alibaba/open-code-review",
    "path": null,
-   "stars": 45387,
+   "stars": 47107,
    "description": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
    "kind": "cli",
    "security_grade": "safe",
@@ -743,7 +743,7 @@
   {
    "repo_full_name": "tirth8205/code-review-graph",
    "path": null,
-   "stars": 32009,
+   "stars": 32140,
    "description": "Local-first code intelligence graph for MCP and CLI. Builds a persistent map of your codebase so AI coding tools read only what matters, with benchmarked context reductions on reviews and large-repo workflows.",
    "kind": "cli",
    "security_grade": "safe",
@@ -753,7 +753,7 @@
   {
    "repo_full_name": "kenn-io/roborev",
    "path": null,
-   "stars": 1748,
+   "stars": 1753,
    "description": "Continuous background code review database for agents, work faster and smarter with accountability for every line of generated code.",
    "kind": "cli",
    "security_grade": "safe",
@@ -763,7 +763,7 @@
   {
    "repo_full_name": "HexmosTech/git-lrc",
    "path": null,
-   "stars": 1468,
+   "stars": 1469,
    "description": "Free, Micro AI Code Reviews That Run on Git Commit",
    "kind": "cli",
    "security_grade": "safe",
@@ -773,7 +773,7 @@
   {
    "repo_full_name": "sashiko-dev/sashiko",
    "path": null,
-   "stars": 1301,
+   "stars": 1322,
    "description": "Agentic review of Linux Kernel code changes",
    "kind": "cli",
    "security_grade": "safe",
@@ -783,7 +783,7 @@
   {
    "repo_full_name": "Gentleman-Programming/gentleman-guardian-angel",
    "path": null,
-   "stars": 1183,
+   "stars": 1184,
    "description": "😇 Gentleman Guardian Angel (gga) - Provider-agnostic code review using AI. Use Claude, Gemini, Codex, Ollama to enforce your coding standards.",
    "kind": "cli",
    "security_grade": "safe",
@@ -791,19 +791,9 @@
    "license": "MIT"
   },
   {
-   "repo_full_name": "nilbuild/diffity",
-   "path": null,
-   "stars": 857,
-   "description": "Mac app to review the code written by you or your agent with Claude in the loop.",
-   "kind": "cli",
-   "security_grade": "safe",
-   "language": "TypeScript",
-   "license": "MIT"
-  },
-  {
    "repo_full_name": "persiyanov/herdr-reviewr",
    "path": null,
-   "stars": 857,
+   "stars": 885,
    "description": "Review your coding agent's diff in a terminal pane and send line comments back to Claude Code, Codex, OpenCode or Pi. A herdr plugin.",
    "kind": "cli",
    "security_grade": "safe",
@@ -811,9 +801,19 @@
    "license": "MIT"
   },
   {
+   "repo_full_name": "nilbuild/diffity",
+   "path": null,
+   "stars": 876,
+   "description": "Mac app to review the code written by you or your agent with Claude in the loop.",
+   "kind": "cli",
+   "security_grade": "safe",
+   "language": "TypeScript",
+   "license": "MIT"
+  },
+  {
    "repo_full_name": "devagrawal09/jev-review",
    "path": null,
-   "stars": 679,
+   "stars": 685,
    "description": "A staged code-review workflow and local dashboard built with TypeSafe Jev.",
    "kind": "cli",
    "security_grade": "safe",
@@ -823,7 +823,7 @@
   {
    "repo_full_name": "imbue-ai/vet",
    "path": null,
-   "stars": 521,
+   "stars": 523,
    "description": "Find issues worth your attention.",
    "kind": "cli",
    "security_grade": "safe",
@@ -833,7 +833,7 @@
   {
    "repo_full_name": "taovc/pr-cockpit",
    "path": null,
-   "stars": 494,
+   "stars": 489,
    "description": "Local AI PR workbench — Claude/Codex review in isolated git worktrees, human-gated GitHub comments",
    "kind": "cli",
    "security_grade": "safe",
@@ -843,7 +843,7 @@
   {
    "repo_full_name": "getsentry/warden",
    "path": null,
-   "stars": 417,
+   "stars": 418,
    "description": "Your code is under new management. Agents that review your code.",
    "kind": "cli",
    "security_grade": "safe",
@@ -853,7 +853,7 @@
   {
    "repo_full_name": "lakeday-org/perch",
    "path": null,
-   "stars": 350,
+   "stars": 353,
    "description": "Semantic code linting with Decision Models",
    "kind": "cli",
    "security_grade": "safe",
@@ -883,7 +883,7 @@
   {
    "repo_full_name": "NiazMorshed2007/jev-review",
    "path": null,
-   "stars": 239,
+   "stars": 242,
    "description": "Local-first MCP plugin for continuous software-quality review by AI coding agents, powered by Jev.",
    "kind": "cli",
    "security_grade": "safe",
@@ -893,7 +893,7 @@
   {
    "repo_full_name": "wong2/diffx",
    "path": null,
-   "stars": 210,
+   "stars": 213,
    "description": "A local code review tool designed for the coding agent workflow",
    "kind": "cli",
    "security_grade": "safe",
@@ -903,7 +903,7 @@
   {
    "repo_full_name": "Ataraxy-Labs/inspect",
    "path": null,
-   "stars": 202,
+   "stars": 204,
    "description": "Entity-level code review. Triages pull requests by structural risk using cross-file dependency graphs and LLMs that read for meaning.",
    "kind": "cli",
    "security_grade": "safe",
@@ -913,7 +913,7 @@
   {
    "repo_full_name": "puemos/lareview",
    "path": null,
-   "stars": 180,
+   "stars": 181,
    "description": "The code review workbench.",
    "kind": "cli",
    "security_grade": "safe",
@@ -921,19 +921,9 @@
    "license": "Apache-2.0"
   },
   {
-   "repo_full_name": "tshemsedinov/reslop",
-   "path": null,
-   "stars": 162,
-   "description": "👁️ Review AI generated code and plan changes",
-   "kind": "cli",
-   "security_grade": "safe",
-   "language": "JavaScript",
-   "license": "MIT"
-  },
-  {
    "repo_full_name": "openqa-cn/codexqa",
    "path": null,
-   "stars": 152,
+   "stars": 170,
    "description": "codexqa: 11 local-first Agent Skills for Cursor, Claude Code, Codex & OpenClaw — change impact analysis, AI code review, defect scan, testcase generation, browser replay & RCA.",
    "kind": "cli",
    "security_grade": "safe",
@@ -941,9 +931,19 @@
    "license": "Apache-2.0"
   },
   {
+   "repo_full_name": "tshemsedinov/reslop",
+   "path": null,
+   "stars": 169,
+   "description": "👁️ Review AI generated code and plan changes",
+   "kind": "cli",
+   "security_grade": "safe",
+   "language": "JavaScript",
+   "license": "MIT"
+  },
+  {
    "repo_full_name": "egma-ai/jev-code-reviewer",
    "path": null,
-   "stars": 140,
+   "stars": 144,
    "description": "Review behavior, not just diffs. Jev prioritizes human attention; OpenAI explains the changes. Local CLI + agent skill + GitHub extension.",
    "kind": "cli",
    "security_grade": "safe",
@@ -1001,6 +1001,16 @@
    "license": "MIT"
   },
   {
+   "repo_full_name": "reviu-dev/reviu",
+   "path": null,
+   "stars": 91,
+   "description": "The review app for code your agent writes. Native Rust/GPUI desktop app with real Git workflows.",
+   "kind": "cli",
+   "security_grade": "safe",
+   "language": "Rust",
+   "license": "NOASSERTION"
+  },
+  {
    "repo_full_name": "hyperb1iss/lucidity-mcp",
    "path": null,
    "stars": 90,
@@ -1011,19 +1021,9 @@
    "license": "Apache-2.0"
   },
   {
-   "repo_full_name": "reviu-dev/reviu",
-   "path": null,
-   "stars": 87,
-   "description": "The review app for code your agent writes. Native Rust/GPUI desktop app with real Git workflows.",
-   "kind": "cli",
-   "security_grade": "safe",
-   "language": "Rust",
-   "license": "NOASSERTION"
-  },
-  {
    "repo_full_name": "mikker/semantic-review",
    "path": null,
-   "stars": 80,
+   "stars": 82,
    "description": "Semantic diff review for coding agents",
    "kind": "cli",
    "security_grade": "safe",
@@ -1039,16 +1039,6 @@
    "security_grade": "safe",
    "language": "TypeScript",
    "license": "MIT"
-  },
-  {
-   "repo_full_name": "n24q02m/better-code-review-graph",
-   "path": null,
-   "stars": 76,
-   "description": "Knowledge graph for token-efficient code reviews -- semantic search and call-graph resolution across your codebase.",
-   "kind": "cli",
-   "security_grade": "safe",
-   "language": "Python",
-   "license": "Apache-2.0"
   },
   {
    "repo_full_name": "n24q02m/crg",
@@ -1183,7 +1173,7 @@
   {
    "repo_full_name": "DiffoHQ/diffo",
    "path": null,
-   "stars": 35,
+   "stars": 37,
    "description": "Local, live code review for the AI age - read what the agent wrote and send feedback straight back",
    "kind": "cli",
    "security_grade": "safe",
@@ -1243,8 +1233,8 @@
   {
    "repo_full_name": "itsmesherry/claude-audit",
    "path": null,
-   "stars": 13,
-   "description": "AI-powered codebase auditor. One command. Powered by Claude.",
+   "stars": 14,
+   "description": "Command-line code auditor: fast static checks, plus an optional audit where Claude investigates the code with read-only tools.",
    "kind": "cli",
    "security_grade": "caution",
    "language": "TypeScript",
@@ -1331,16 +1321,6 @@
    "license": "Apache-2.0"
   },
   {
-   "repo_full_name": "verabravo/diffback",
-   "path": null,
-   "stars": 9,
-   "description": "Local web UI to review AI-generated code changes and generate structured feedback prompts",
-   "kind": "cli",
-   "security_grade": "safe",
-   "language": "JavaScript",
-   "license": "MIT"
-  },
-  {
    "repo_full_name": "jsliapark/preflight",
    "path": null,
    "stars": 8,
@@ -1348,6 +1328,16 @@
    "kind": "cli",
    "security_grade": "safe",
    "language": "Python",
+   "license": "MIT"
+  },
+  {
+   "repo_full_name": "verabravo/diffback",
+   "path": null,
+   "stars": 8,
+   "description": "Local web UI to review AI-generated code changes and generate structured feedback prompts",
+   "kind": "cli",
+   "security_grade": "safe",
+   "language": "JavaScript",
    "license": "MIT"
   },
   {
@@ -1393,8 +1383,8 @@
   {
    "repo_full_name": "lintsinghua/DeepAudit",
    "path": null,
-   "stars": 7132,
-   "description": "DeepAudit：人人拥有的 AI 黑客战队，让漏洞挖掘触手可及。国内首个开源的代码漏洞挖掘多智能体系统。小白一键部署运行，自主协作审计 + 自动化沙箱 PoC 验证。支持 Ollama 私有部署 ，一键生成报告。支持中转站。​让安全不再昂贵，让审计不再复杂。",
+   "stars": 7159,
+   "description": "DeepAudit：人人拥有的 AI 黑客战队，让漏洞挖掘触手可及。小白一键部署运行，自主协作审计 + 自动化沙箱 PoC 验证。支持 Ollama 私有部署 ，一键生成报告。支持中转站。​让安全不再昂贵，让审计不再复杂。",
    "kind": "security",
    "security_grade": "safe",
    "language": "Python",
@@ -1403,7 +1393,7 @@
   {
    "repo_full_name": "anthropics/claude-code-security-review",
    "path": null,
-   "stars": 6329,
+   "stars": 6377,
    "description": "An AI-powered security review GitHub Action using Claude to analyze code changes for security vulnerabilities.",
    "kind": "security",
    "security_grade": "safe",
@@ -1413,7 +1403,7 @@
   {
    "repo_full_name": "google/mantis",
    "path": null,
-   "stars": 2400,
+   "stars": 2438,
    "description": "A modular, stack-agnostic toolkit for AI coding agents to autonomously find, reproduce, and patch vulnerabilities.",
    "kind": "security",
    "security_grade": "safe",
@@ -1423,7 +1413,7 @@
   {
    "repo_full_name": "arm/metis",
    "path": null,
-   "stars": 877,
+   "stars": 878,
    "description": "Metis is an open-source, AI-driven tool for deep security code review",
    "kind": "security",
    "security_grade": "safe",
@@ -1433,7 +1423,7 @@
   {
    "repo_full_name": "agentgg-dev/agentgg",
    "path": null,
-   "stars": 439,
+   "stars": 442,
    "description": "Open source agentic SAST. The engine behind hundreds of disclosed zero-days. 100+ AI security agents, any repo or PR diff, bring your own model.",
    "kind": "security",
    "security_grade": "safe",
@@ -1443,7 +1433,7 @@
   {
    "repo_full_name": "tanviet12/vbsec",
    "path": null,
-   "stars": 289,
+   "stars": 291,
    "description": "Security scanning skill for Claude Code, Codex and Antigravity. Finds the 21 most common vulnerabilities in AI-written code and shows how to fix each one.",
    "kind": "security",
    "security_grade": "safe",
@@ -1453,7 +1443,7 @@
   {
    "repo_full_name": "AgriciDaniel/claude-cybersecurity",
    "path": null,
-   "stars": 228,
+   "stars": 232,
    "description": "AI-powered cybersecurity code review skill for Claude Code. 8 specialist agents, OWASP 2025, CWE Top 25, MITRE ATT&CK, 11 languages, zero configuration.",
    "kind": "security",
    "security_grade": "safe",
@@ -1473,7 +1463,7 @@
   {
    "repo_full_name": "EastSword/skill-dfyx_code_security_review",
    "path": null,
-   "stars": 140,
+   "stars": 143,
    "description": "东方隐侠团队出品，代码审计skill",
    "kind": "security",
    "security_grade": "safe",
@@ -1493,7 +1483,7 @@
   {
    "repo_full_name": "momenbasel/vulnhawk",
    "path": null,
-   "stars": 87,
+   "stars": 88,
    "description": "AI-powered SAST scanner that finds auth bypass, IDOR, and logic bugs Semgrep/CodeQL miss. Free GitHub Action. Supports Python, JS/TS, Go, PHP, Ruby.",
    "kind": "security",
    "security_grade": "safe",
@@ -1533,7 +1523,7 @@
   {
    "repo_full_name": "win4r/jev-security-scan",
    "path": null,
-   "stars": 11,
+   "stars": 12,
    "description": "使用 TypeSafe Jev 审查 Skill 与 MCP 可疑行为 | Review Agent Skills and MCP code with Jev, static evidence, and explicit coverage gaps",
    "kind": "security",
    "security_grade": "safe",
@@ -1553,7 +1543,7 @@
   {
    "repo_full_name": "Agent-Field/pr-af",
    "path": null,
-   "stars": 649,
+   "stars": 651,
    "description": "#1 open-source code reviewer on Code-Review-Bench",
    "kind": "multi",
    "security_grade": "safe",
@@ -1573,7 +1563,7 @@
   {
    "repo_full_name": "codexstar69/bug-hunter",
    "path": null,
-   "stars": 520,
+   "stars": 524,
    "description": "Adversarial AI bug hunter with auto-fix skill for Claude Code, Cursor, Codex CLI, GitHub Copilot CLI, Kiro CLI, Opencode, Pi Coding Agent, and more. Multi-agent pipeline finds security vulnerabilities, logic errors, and runtime bugs — then fixes them autonomously on a safe branch.",
    "kind": "multi",
    "security_grade": "safe",
@@ -1583,7 +1573,7 @@
   {
    "repo_full_name": "spencermarx/open-code-review",
    "path": null,
-   "stars": 371,
+   "stars": 375,
    "description": "AI-powered multi-agent code review. Simulates a customizable team of Engineers performing code review with built-in discourse.",
    "kind": "multi",
    "security_grade": "safe",
@@ -1593,7 +1583,7 @@
   {
    "repo_full_name": "adamjgmiller/adamsreview",
    "path": null,
-   "stars": 243,
+   "stars": 244,
    "description": "Multi-lens code review pipeline for Claude Code: deep review (Claude or Codex), auto-fix loop, interactive walkthrough, external-finding injection.",
    "kind": "multi",
    "security_grade": "safe",
@@ -1613,7 +1603,7 @@
   {
    "repo_full_name": "syabro/rejudge",
    "path": null,
-   "stars": 165,
+   "stars": 166,
    "description": "Independent multi-model review for AI coding agents",
    "kind": "multi",
    "security_grade": "safe",
@@ -1623,7 +1613,7 @@
   {
    "repo_full_name": "amElnagdy/review-skills",
    "path": null,
-   "stars": 132,
+   "stars": 135,
    "description": "Two-model debate review of PRs and MRs, plus a babysitter that works the review rounds. Skills for any coding agent.",
    "kind": "multi",
    "security_grade": "safe",
@@ -1643,12 +1633,22 @@
   {
    "repo_full_name": "VirtusLab/tulip",
    "path": null,
-   "stars": 117,
+   "stars": 118,
    "description": "Explains GitHub PRs in a human-friendly way, using LLMs.",
    "kind": "multi",
    "security_grade": "safe",
    "language": "TypeScript",
    "license": "Apache-2.0"
+  },
+  {
+   "repo_full_name": "Mte90/linus-torvalds-skill",
+   "path": null,
+   "stars": 116,
+   "description": "Distilled Code Reviewer skills/soul from 32k~ email from the kernel newsletter",
+   "kind": "multi",
+   "security_grade": "safe",
+   "language": "Python",
+   "license": "CC0-1.0"
   },
   {
    "repo_full_name": "GGGODLIN/claude-pr-review",
@@ -1661,24 +1661,24 @@
    "license": "MIT"
   },
   {
-   "repo_full_name": "Mte90/linus-torvalds-skill",
-   "path": null,
-   "stars": 113,
-   "description": "Distilled Code Reviewer skills/soul from 32k~ email from the kernel newsletter",
-   "kind": "multi",
-   "security_grade": "safe",
-   "language": "Python",
-   "license": "CC0-1.0"
-  },
-  {
    "repo_full_name": "huoji120/code_review_agent",
    "path": null,
-   "stars": 103,
+   "stars": 106,
    "description": "简洁高效的代码审计agent",
    "kind": "multi",
    "security_grade": "safe",
    "language": "Go",
    "license": null
+  },
+  {
+   "repo_full_name": "umputun/revmux",
+   "path": null,
+   "stars": 100,
+   "description": "Multi-agent code review, supervised and auditable",
+   "kind": "multi",
+   "security_grade": "safe",
+   "language": "Go",
+   "license": "MIT"
   },
   {
    "repo_full_name": "ZJunCher/mr-agent",
@@ -1689,16 +1689,6 @@
    "security_grade": "safe",
    "language": "Python",
    "license": "AGPL-3.0"
-  },
-  {
-   "repo_full_name": "umputun/revmux",
-   "path": null,
-   "stars": 98,
-   "description": "Multi-agent code review, supervised and auditable",
-   "kind": "multi",
-   "security_grade": "safe",
-   "language": "Go",
-   "license": "MIT"
   },
   {
    "repo_full_name": "dalemoncayo/fullcase-web",
@@ -1713,7 +1703,7 @@
   {
    "repo_full_name": "csy-csy123/pr-review-agent-council",
    "path": null,
-   "stars": 85,
+   "stars": 87,
    "description": "学习 learn-claude-code 后的 PR Review Agent 实践项目：构建 Debate Council 多 Agent 审查、Tool Calling、结构化报告与 AI Judge 评估。",
    "kind": "multi",
    "security_grade": "safe",
@@ -1771,16 +1761,6 @@
    "license": "MIT"
   },
   {
-   "repo_full_name": "wdnmd1265/Audison",
-   "path": null,
-   "stars": 41,
-   "description": "Stop trusting single AI outputs. An anti-hallucination framework with dual-brain arbitration, multi-model audit, and evidence chains for LLM quality control.",
-   "kind": "multi",
-   "security_grade": "safe",
-   "language": "Python",
-   "license": "Apache-2.0"
-  },
-  {
    "repo_full_name": "leocder07/spectra",
    "path": null,
    "stars": 19,
@@ -1811,9 +1791,19 @@
    "license": "MIT"
   },
   {
+   "repo_full_name": "wdnmd1265/Audison",
+   "path": null,
+   "stars": 11,
+   "description": "Stop trusting single AI outputs. An anti-hallucination framework with dual-brain arbitration, multi-model audit, and evidence chains for LLM quality control.",
+   "kind": "multi",
+   "security_grade": "safe",
+   "language": "Python",
+   "license": "Apache-2.0"
+  },
+  {
    "repo_full_name": "px0-ai/px0",
    "path": null,
-   "stars": 1844,
+   "stars": 1859,
    "description": "px0 is an IDE built for reviewing AI-generated code, optimized for speed. It turns your browser into a zero-latency console with native Git and GitHub integrations, instant search across massive codebases, and seamless handoff to local AI coding harnesses.",
    "kind": "platform",
    "security_grade": "safe",
@@ -1823,7 +1813,7 @@
   {
    "repo_full_name": "kodustech/kodus-ai",
    "path": null,
-   "stars": 1459,
+   "stars": 1478,
    "description": "Open source, self-hosted AI code review. Bring your own LLM.",
    "kind": "platform",
    "security_grade": "safe",
@@ -1833,7 +1823,7 @@
   {
    "repo_full_name": "miracodeai/mira",
    "path": null,
-   "stars": 361,
+   "stars": 366,
    "description": "Self-hosted AI code reviewer with indexed PR reviews, walkthroughs, vulnerability scanning, dependency graphs, custom rules, and a learning loop.",
    "kind": "platform",
    "security_grade": "safe",
@@ -1873,7 +1863,7 @@
   {
    "repo_full_name": "seoes/proval",
    "path": null,
-   "stars": 110,
+   "stars": 115,
    "description": "Self-Hosted LLM Code Review Agent for GitLab, Forgejo and GitHub. Local LLM support",
    "kind": "platform",
    "security_grade": "safe",
@@ -1894,7 +1884,7 @@
    "repo_full_name": "HexmosTech/LiveReview",
    "path": null,
    "stars": 64,
-   "description": "Blast-Radius Aware AI Code Review for Business-Critical Systems",
+   "description": "Risk-Aware AI Code Review for Business-Critical Systems",
    "kind": "platform",
    "security_grade": "caution",
    "language": "Go",
