@@ -2,7 +2,7 @@
 
 [中文](README.zh-CN.md)
 
-Open-source **AI code review skills and tools** for Claude Code, Codex and other agents: review skills, local and CLI reviewers, PR review bots and CI actions, multi-agent review, security review, self-hosted platforms. 184 repos, each one read and security-graded by [Agent Skills Hub (agentskillshub.top)](https://agentskillshub.top).
+Open-source **AI code review skills and tools** for Claude Code, Codex and other agents: review skills, local and CLI reviewers, PR review bots and CI actions, multi-agent review, security review, self-hosted platforms. 183 repos, each one read and security-graded by [Agent Skills Hub (agentskillshub.top)](https://agentskillshub.top).
 
 Live page with filters: **[https://agentskillshub.top/best/code-review/](https://agentskillshub.top/best/code-review/)** · refreshed every 8 hours
 
@@ -34,7 +34,7 @@ Whichever you pick, the hardest defect was not in the code: four of 13 reviewers
 </tr>
 <tr>
 <td align="center" valign="top" width="33%"><b>🛡 Security review</b><br><sub>16 repos</sub><br><br><a href="https://github.com/DeepCodeAI/vscode-extension"><img src="assets/previews/DeepCodeAI__vscode-extension.gif" width="260" alt="DeepCodeAI/vscode-extension"></a><br><sub>Agents that look for vulnerabilities, some in a sandbox.</sub><br><a href="#type-security"><b>View the list →</b></a></td>
-<td align="center" valign="top" width="33%"><b>👥 Multi-agent review</b><br><sub>25 repos</sub><br><br><a href="https://github.com/syabro/rejudge"><img src="assets/previews/syabro__rejudge.gif" width="260" alt="syabro/rejudge"></a><br><sub>Several reviewers or models on the same change.</sub><br><a href="#type-multi"><b>View the list →</b></a></td>
+<td align="center" valign="top" width="33%"><b>👥 Multi-agent review</b><br><sub>24 repos</sub><br><br><a href="https://github.com/syabro/rejudge"><img src="assets/previews/syabro__rejudge.gif" width="260" alt="syabro/rejudge"></a><br><sub>Several reviewers or models on the same change.</sub><br><a href="#type-multi"><b>View the list →</b></a></td>
 <td align="center" valign="top" width="33%"><b>🏗 Code review platforms</b><br><sub>9 repos</sub><br><br><a href="https://github.com/imDarshanGK/AI-dev-assistant"><img src="assets/previews/imDarshanGK__AI-dev-assistant.jpg" width="260" alt="imDarshanGK/AI-dev-assistant"></a><br><sub>Self-hosted services that review across a team's repositories.</sub><br><a href="#type-platform"><b>View the list →</b></a></td>
 </tr>
 </table>
@@ -46,7 +46,7 @@ Whichever you pick, the hardest defect was not in the code: four of 13 reviewers
 - [🧩 Code review skills](#type-skill) (30)
 - [⌨️ Local & CLI review](#type-cli) (65)
 - [🛡 Security review](#type-security) (16)
-- [👥 Multi-agent review](#type-multi) (25)
+- [👥 Multi-agent review](#type-multi) (24)
 - [🏗 Code review platforms](#type-platform) (9)
 
 ## How a repo gets on the list
@@ -98,12 +98,12 @@ On 2026-10-10 we ran 16 of these tools and 13 ran. Each reviewed the same 12 pul
 
 | Repo | Stars | What it does | Security |
 |---|---:|---|---|
-| [The-PR-Agent/pr-agent](https://github.com/The-PR-Agent/pr-agent) | 15.5k | 🚀 PR Agent: The Original Open-Source PR Reviewer. This project is not the Qodo free tier. | [SAFE](https://agentskillshub.top/skill/The-PR-Agent/pr-agent/) |
+| [The-PR-Agent/pr-agent](https://github.com/The-PR-Agent/pr-agent) | 15.7k | 🚀 PR Agent: The Original Open-Source PR Reviewer. This project is not the Qodo free tier. | [SAFE](https://agentskillshub.top/skill/The-PR-Agent/pr-agent/) |
 | [mattzcarey/shippie](https://github.com/mattzcarey/shippie) | 2.5k | extendable code review and QA agent 🚢 | [SAFE](https://agentskillshub.top/skill/mattzcarey/shippie/) |
 | [sourcery-ai/sourcery](https://github.com/sourcery-ai/sourcery) | 1.9k | Instant AI code reviews | [SAFE](https://agentskillshub.top/skill/sourcery-ai/sourcery/) |
 | [vercel-labs/openreview](https://github.com/vercel-labs/openreview) | 1.7k | An open-source, self-hosted AI code review bot powered by Vercel. | [SAFE](https://agentskillshub.top/skill/vercel-labs/openreview/) |
 | [villesau/ai-codereviewer](https://github.com/villesau/ai-codereviewer) | 1.0k | AI Code Reviewer: Enhance your GitHub workflow with AI-powered code review! Get intelligent feedback and suggestions on pull requests using OpenAI's… | [SAFE](https://agentskillshub.top/skill/villesau/ai-codereviewer/) |
-| [Nikita-Filonov/ai-review](https://github.com/Nikita-Filonov/ai-review) | 603 | 🚀 AI-powered code review tool for GitHub, GitLab, Bitbucket Cloud, Bitbucket Server, Azure DevOps and Gitea — built with LLMs like OpenAI, Claude, Ge… | [SAFE](https://agentskillshub.top/skill/Nikita-Filonov/ai-review/) |
+| [Nikita-Filonov/ai-review](https://github.com/Nikita-Filonov/ai-review) | 604 | 🚀 AI-powered code review tool for GitHub, GitLab, Bitbucket Cloud, Bitbucket Server, Azure DevOps and Gitea — built with LLMs like OpenAI, Claude, Ge… | [SAFE](https://agentskillshub.top/skill/Nikita-Filonov/ai-review/) |
 | [Nayjest/Gito](https://github.com/Nayjest/Gito) | 467 | An AI-powered GitHub code review tool that uses LLMs to detect high-confidence, high-impact issues—such as security vulnerabilities, bugs, and mainta… | [SAFE](https://agentskillshub.top/skill/Nayjest/Gito/) |
 | [cirolini/genai-code-review](https://github.com/cirolini/genai-code-review) | 372 | GitHub Action that reviews pull request diffs with an LLM and posts the comments on the PR | [SAFE](https://agentskillshub.top/skill/cirolini/genai-code-review/) |
 | [sturdy-dev/codeball-action](https://github.com/sturdy-dev/codeball-action) | 327 | 🔮 Codeball – AI Code Review that finds bugs and fast-tracks your code | [SAFE](https://agentskillshub.top/skill/sturdy-dev/codeball-action/) |
@@ -116,7 +116,7 @@ On 2026-10-10 we ran 16 of these tools and 13 ran. Each reviewed the same 12 pul
 | [mr-karan/hodor](https://github.com/mr-karan/hodor) | 115 | Agentic code reviewer for GitHub PRs and GitLab MRs. Multi-step reasoning with autonomous tool orchestration — catches bugs requiring analysis across… | [SAFE](https://agentskillshub.top/skill/mr-karan/hodor/) |
 | [octopusreview/octopus](https://github.com/octopusreview/octopus) | 115 | AI-powered PR review tool — multi-armed code analysis, no bug escapes 🐙 | [SAFE](https://agentskillshub.top/skill/octopusreview/octopus/) |
 | [qiniu/reviewbot](https://github.com/qiniu/reviewbot) | 106 | Empower Your Code Quality with Self-Hosted Automated Analysis and Review | [SAFE](https://agentskillshub.top/skill/qiniu/reviewbot/) |
-| [Juror-AI/juror](https://github.com/Juror-AI/juror) | 102 | Cheaper and better Greptile alternative runs on your own github actions. | [SAFE](https://agentskillshub.top/skill/Juror-AI/juror/) |
+| [Juror-AI/juror](https://github.com/Juror-AI/juror) | 100 | Cheaper and better Greptile alternative runs on your own github actions. | [SAFE](https://agentskillshub.top/skill/Juror-AI/juror/) |
 | [feiskyer/ChatGPT-Reviewer](https://github.com/feiskyer/ChatGPT-Reviewer) | 98 | Automated pull requests reviewing and issues triaging with ChatGPT. | [SAFE](https://agentskillshub.top/skill/feiskyer/ChatGPT-Reviewer/) |
 | [nfacha/OpenAI-Gitlab-PR-Review](https://github.com/nfacha/OpenAI-Gitlab-PR-Review) | 94 | Prototype Gitlab Webook that submits code to OpenAI for review | [SAFE](https://agentskillshub.top/skill/nfacha/OpenAI-Gitlab-PR-Review/) |
 | [Usagi-org/ai-code-review-helper](https://github.com/Usagi-org/ai-code-review-helper) | 92 | AI Code Review Helper 是一个旨在自动化代码审查流程的工具。它通过集成版本控制系统（如 GitHub 和 GitLab）的 Webhook，利用大型语言模型（LLM）对代码变更进行分析，并将审查意见反馈到相应的 Pull Request 或 Merge Request 中。此外… | [SAFE](https://agentskillshub.top/skill/Usagi-org/ai-code-review-helper/) |
@@ -163,8 +163,8 @@ On 2026-10-10 we ran 16 of these tools and 13 ran. Each reviewed the same 12 pul
 | [fivetaku/insane-review](https://github.com/fivetaku/insane-review) | 127 | Use GPT-5.5 Pro (web-only, no API) from inside Claude Code — repomix-pack the relevant code, send to subscription ChatGPT Pro, harvest the review (AP… | [SAFE](https://agentskillshub.top/skill/fivetaku/insane-review/) |
 | [win4r/agent-skills-code-review-router](https://github.com/win4r/agent-skills-code-review-router) | 124 |  | [SAFE](https://agentskillshub.top/skill/win4r/agent-skills-code-review-router/) |
 | [nathankim0/clean-architecture-skills](https://github.com/nathankim0/clean-architecture-skills) | 110 | Clean Architecture and Kent Beck refactoring skills for Claude Code and OpenAI Codex: code review, architecture design, SOLID, and simple design. | [SAFE](https://agentskillshub.top/skill/nathankim0/clean-architecture-skills/) |
-| [rediga/Salesforce-Code-Review-Agent](https://github.com/rediga/Salesforce-Code-Review-Agent) | 103 | Salesforce DX code review: Apex, LWC, Flows, security (CRUD/FLS), governors, and Bugbot. | [SAFE](https://agentskillshub.top/skill/rediga/Salesforce-Code-Review-Agent/) |
-| [w1ckedxt/cynical-sally](https://github.com/w1ckedxt/cynical-sally) | 101 | Brutally honest senior-engineer code reviews for Claude Code, Cursor & Windsurf - and your terminal. Scores, evidence-backed issues, usable fixes. | [SAFE](https://agentskillshub.top/skill/w1ckedxt/cynical-sally/) |
+| [rediga/Salesforce-Code-Review-Agent](https://github.com/rediga/Salesforce-Code-Review-Agent) | 106 | Salesforce DX code review: Apex, LWC, Flows, security (CRUD/FLS), governors, and Bugbot. | [SAFE](https://agentskillshub.top/skill/rediga/Salesforce-Code-Review-Agent/) |
+| [w1ckedxt/cynical-sally](https://github.com/w1ckedxt/cynical-sally) | 102 | Brutally honest senior-engineer code reviews for Claude Code, Cursor & Windsurf - and your terminal. Scores, evidence-backed issues, usable fixes. | [SAFE](https://agentskillshub.top/skill/w1ckedxt/cynical-sally/) |
 | [akkie76/code-review-skills](https://github.com/akkie76/code-review-skills) | 88 | Evidence-based code review skills for Codex and Claude Code | [SAFE](https://agentskillshub.top/skill/akkie76/code-review-skills/) |
 | [mberneti/clab](https://github.com/mberneti/clab) | 54 | Open source Claude skill for automated GitLab MR reviews. Configurable lint rules, semantic analysis, and inline comment posting for self-hosted GitL… | [SAFE](https://agentskillshub.top/skill/mberneti/clab/) |
 | [aidankinzett/claude-git-pr-skill](https://github.com/aidankinzett/claude-git-pr-skill) | 53 | Professional GitHub PR review skill for Claude Code with pending reviews, code suggestions, and user approval workflow | [SAFE](https://agentskillshub.top/skill/aidankinzett/claude-git-pr-skill/) |
@@ -195,19 +195,19 @@ On 2026-10-10 we ran 16 of these tools and 13 ran. Each reviewed the same 12 pul
 
 | Repo | Stars | What it does | Security |
 |---|---:|---|---|
-| [alibaba/open-code-review](https://github.com/alibaba/open-code-review) | 49.6k | Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-le… | [SAFE](https://agentskillshub.top/skill/alibaba/open-code-review/) |
-| [tirth8205/code-review-graph](https://github.com/tirth8205/code-review-graph) | 32.6k | Local-first code intelligence graph for MCP and CLI. Builds a persistent map of your codebase so AI coding tools read only what matters, with benchma… | [SAFE](https://agentskillshub.top/skill/tirth8205/code-review-graph/) |
+| [alibaba/open-code-review](https://github.com/alibaba/open-code-review) | 49.7k | Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-le… | [SAFE](https://agentskillshub.top/skill/alibaba/open-code-review/) |
+| [tirth8205/code-review-graph](https://github.com/tirth8205/code-review-graph) | 32.7k | Local-first code intelligence graph for MCP and CLI. Builds a persistent map of your codebase so AI coding tools read only what matters, with benchma… | [SAFE](https://agentskillshub.top/skill/tirth8205/code-review-graph/) |
 | [kenn-io/roborev](https://github.com/kenn-io/roborev) | 1.8k | Continuous background code review database for agents, work faster and smarter with accountability for every line of generated code. | [SAFE](https://agentskillshub.top/skill/kenn-io/roborev/) |
 | [HexmosTech/git-lrc](https://github.com/HexmosTech/git-lrc) | 1.5k | Free, Micro AI Code Reviews That Run on Git Commit | [SAFE](https://agentskillshub.top/skill/HexmosTech/git-lrc/) |
 | [sashiko-dev/sashiko](https://github.com/sashiko-dev/sashiko) | 1.4k | Agentic review of Linux Kernel code changes | [SAFE](https://agentskillshub.top/skill/sashiko-dev/sashiko/) |
 | [Gentleman-Programming/gentleman-guardian-angel](https://github.com/Gentleman-Programming/gentleman-guardian-angel) | 1.2k | 😇 Gentleman Guardian Angel (gga) - Provider-agnostic code review using AI. Use Claude, Gemini, Codex, Ollama to enforce your coding standards. | [SAFE](https://agentskillshub.top/skill/Gentleman-Programming/gentleman-guardian-angel/) |
-| [persiyanov/herdr-reviewr](https://github.com/persiyanov/herdr-reviewr) | 975 | Review your agent's diff in a terminal pane and send comments back to Claude Code, Codex, OpenCode or Pi. A herdr plugin. | [SAFE](https://agentskillshub.top/skill/persiyanov/herdr-reviewr/) |
-| [nilbuild/diffity](https://github.com/nilbuild/diffity) | 902 | Mac app to review the code written by you or your agent with Claude in the loop. | [SAFE](https://agentskillshub.top/skill/nilbuild/diffity/) |
-| [devagrawal09/jev-review](https://github.com/devagrawal09/jev-review) | 700 | A staged code-review workflow and local dashboard built with TypeSafe Jev. | [SAFE](https://agentskillshub.top/skill/devagrawal09/jev-review/) |
-| [imbue-ai/vet](https://github.com/imbue-ai/vet) | 497 | Find issues worth your attention. | [SAFE](https://agentskillshub.top/skill/imbue-ai/vet/) |
+| [persiyanov/herdr-reviewr](https://github.com/persiyanov/herdr-reviewr) | 977 | Review your agent's diff in a terminal pane and send comments back to Claude Code, Codex, OpenCode or Pi. A herdr plugin. | [SAFE](https://agentskillshub.top/skill/persiyanov/herdr-reviewr/) |
+| [nilbuild/diffity](https://github.com/nilbuild/diffity) | 903 | Mac app to review the code written by you or your agent with Claude in the loop. | [SAFE](https://agentskillshub.top/skill/nilbuild/diffity/) |
+| [devagrawal09/jev-review](https://github.com/devagrawal09/jev-review) | 702 | A staged code-review workflow and local dashboard built with TypeSafe Jev. | [SAFE](https://agentskillshub.top/skill/devagrawal09/jev-review/) |
+| [imbue-ai/vet](https://github.com/imbue-ai/vet) | 493 | Find issues worth your attention. | [SAFE](https://agentskillshub.top/skill/imbue-ai/vet/) |
 | [taovc/pr-cockpit](https://github.com/taovc/pr-cockpit) | 485 | Local AI PR workbench — Claude/Codex review in isolated git worktrees, human-gated GitHub comments | [SAFE](https://agentskillshub.top/skill/taovc/pr-cockpit/) |
 | [getsentry/warden](https://github.com/getsentry/warden) | 423 | Your code is under new management. Agents that review your code. | [SAFE](https://agentskillshub.top/skill/getsentry/warden/) |
-| [lakeday-org/perch](https://github.com/lakeday-org/perch) | 316 | Semantic code and security scanner | [SAFE](https://agentskillshub.top/skill/lakeday-org/perch/) |
+| [lakeday-org/perch](https://github.com/lakeday-org/perch) | 313 | Semantic code and security scanner | [SAFE](https://agentskillshub.top/skill/lakeday-org/perch/) |
 | [TheMorpheus407/RepoLens](https://github.com/TheMorpheus407/RepoLens) | 304 | Multi-lens code audit tool — 280 expert AI agents for code review, security testing, and infrastructure auditing | [SAFE](https://agentskillshub.top/skill/TheMorpheus407/RepoLens/) |
 | [ReviewStage/stage-cli](https://github.com/ReviewStage/stage-cli) | 277 | A viewer for reviewing local code changes in small individual chapters. Works with any AI agent. | [SAFE](https://agentskillshub.top/skill/ReviewStage/stage-cli/) |
 | [NiazMorshed2007/jev-review](https://github.com/NiazMorshed2007/jev-review) | 249 | Local-first MCP plugin for continuous software-quality review by AI coding agents, powered by Jev. | [SAFE](https://agentskillshub.top/skill/NiazMorshed2007/jev-review/) |
@@ -221,7 +221,7 @@ On 2026-10-10 we ran 16 of these tools and 13 ran. Each reviewed the same 12 pul
 | [vuphongle/oss-pr-reviewer](https://github.com/vuphongle/oss-pr-reviewer) | 113 | AI-powered CLI for reviewing GitHub pull requests, detecting potential bugs, security risks, regressions, and missing tests, with structured Markdown… | [SAFE](https://agentskillshub.top/skill/vuphongle/oss-pr-reviewer/) |
 | [nicobailon/pi-review-loop](https://github.com/nicobailon/pi-review-loop) | 112 | Automated code review loop extension for Pi coding agent | [SAFE](https://agentskillshub.top/skill/nicobailon/pi-review-loop/) |
 | [Ali-Marandi/AI-Code-Reviewer](https://github.com/Ali-Marandi/AI-Code-Reviewer) | 109 | AI-Powered Code Review and Quality Analysis Tool | [SAFE](https://agentskillshub.top/skill/Ali-Marandi/AI-Code-Reviewer/) |
-| [reviu-dev/reviu](https://github.com/reviu-dev/reviu) | 104 | The review app for code your agent writes. Native Rust/GPUI desktop app with real Git workflows. | [SAFE](https://agentskillshub.top/skill/reviu-dev/reviu/) |
+| [reviu-dev/reviu](https://github.com/reviu-dev/reviu) | 105 | The review app for code your agent writes. Native Rust/GPUI desktop app with real Git workflows. | [SAFE](https://agentskillshub.top/skill/reviu-dev/reviu/) |
 | [hyperb1iss/lucidity-mcp](https://github.com/hyperb1iss/lucidity-mcp) | 90 | AI-powered code quality analysis using MCP to help AI assistants review code more effectively. Analyze git changes for complexity, security issues, a… | [SAFE](https://agentskillshub.top/skill/hyperb1iss/lucidity-mcp/) |
 | [snakyvine/codex-maintainer](https://github.com/snakyvine/codex-maintainer) | 83 | Evidence-grounded issue triage, pull request review, and release notes for GitHub maintainers. CLI + GitHub Action. | [SAFE](https://agentskillshub.top/skill/snakyvine/codex-maintainer/) |
 | [mikker/semantic-review](https://github.com/mikker/semantic-review) | 82 | Semantic diff review for coding agents | [SAFE](https://agentskillshub.top/skill/mikker/semantic-review/) |
@@ -229,7 +229,7 @@ On 2026-10-10 we ran 16 of these tools and 13 ran. Each reviewed the same 12 pul
 | [n24q02m/crg](https://github.com/n24q02m/crg) | 76 | Knowledge graph for token-efficient code reviews -- semantic search and call-graph resolution across your codebase. | [SAFE](https://agentskillshub.top/skill/n24q02m/crg/) |
 | [in-the-loop-labs/pair-review](https://github.com/in-the-loop-labs/pair-review) | 74 | AI assisted code review with a human in the loop | [SAFE](https://agentskillshub.top/skill/in-the-loop-labs/pair-review/) |
 | [simion/reviewd](https://github.com/simion/reviewd) | 70 | Local AI pull request reviewer — review GitHub and BitBucket PRs right from your terminal, powered by the Claude Code, Gemini, and Codex CLIs. | [SAFE](https://agentskillshub.top/skill/simion/reviewd/) |
-| [kunkka19xx/lgtm](https://github.com/kunkka19xx/lgtm) | 67 | Read what your agent wrote before you say LGTM. A fast TUI in Zig for reviewing code with vim motions. | [CAUTION](https://agentskillshub.top/skill/kunkka19xx/lgtm/) |
+| [kunkka19xx/lgtm](https://github.com/kunkka19xx/lgtm) | 69 | Read what your agent wrote before you say LGTM. A fast TUI in Zig for reviewing code with vim motions. | [CAUTION](https://agentskillshub.top/skill/kunkka19xx/lgtm/) |
 | [bobmatnyc/ai-code-review](https://github.com/bobmatnyc/ai-code-review) | 56 | AI-powered code review CLI with multiple providers (Gemini, Claude, OpenAI). Features 95%+ token reduction via semantic chunking, 7 review types (sec… | [SAFE](https://agentskillshub.top/skill/bobmatnyc/ai-code-review/) |
 | [kodehash/katichai](https://github.com/kodehash/katichai) | 52 | Context-aware, AI-assisted code review CLI tool that prevents unnecessary AI-generated code, detects duplicated logic, enforces architectural pattern… | [CAUTION](https://agentskillshub.top/skill/kodehash/katichai/) |
 | [giorgiop/AICodePal](https://github.com/giorgiop/AICodePal) | 51 | An AI-managed open-source code review and assistance tool to help developers write better, more efficient, and secure code. | [SAFE](https://agentskillshub.top/skill/giorgiop/AICodePal/) |
@@ -276,11 +276,11 @@ On 2026-10-10 we ran 16 of these tools and 13 ran. Each reviewed the same 12 pul
 |---|---:|---|---|
 | [lintsinghua/DeepAudit](https://github.com/lintsinghua/DeepAudit) | 7.3k | DeepAudit：人人拥有的 AI 黑客战队，让漏洞挖掘触手可及。小白一键部署运行，自主协作审计 + 自动化沙箱 PoC 验证。支持 Ollama 私有部署 ，一键生成报告。支持中转站。​让安全不再昂贵，让审计不再复杂。 | [SAFE](https://agentskillshub.top/skill/lintsinghua/DeepAudit/) |
 | [anthropics/claude-code-security-review](https://github.com/anthropics/claude-code-security-review) | 6.8k | An AI-powered security review GitHub Action using Claude to analyze code changes for security vulnerabilities. | [SAFE](https://agentskillshub.top/skill/anthropics/claude-code-security-review/) |
-| [google/mantis](https://github.com/google/mantis) | 2.7k | A modular, stack-agnostic toolkit for AI coding agents to autonomously find, reproduce, and patch vulnerabilities. | [SAFE](https://agentskillshub.top/skill/google/mantis/) |
+| [google/mantis](https://github.com/google/mantis) | 2.8k | A modular, stack-agnostic toolkit for AI coding agents to autonomously find, reproduce, and patch vulnerabilities. | [SAFE](https://agentskillshub.top/skill/google/mantis/) |
 | [arm/metis](https://github.com/arm/metis) | 891 | Metis is an open-source, AI-driven tool for deep security code review | [SAFE](https://agentskillshub.top/skill/arm/metis/) |
 | [agentgg-dev/agentgg](https://github.com/agentgg-dev/agentgg) | 460 | Open source agentic SAST. The engine behind hundreds of disclosed zero-days. 100+ AI security agents, any repo or PR diff, bring your own model. | [SAFE](https://agentskillshub.top/skill/agentgg-dev/agentgg/) |
-| [tanviet12/vbsec](https://github.com/tanviet12/vbsec) | 322 | Security scanning skill for Claude Code, Codex and Antigravity. Finds the 21 most common vulnerabilities in AI-written code and shows how to fix each… | [SAFE](https://agentskillshub.top/skill/tanviet12/vbsec/) |
-| [AgriciDaniel/claude-cybersecurity](https://github.com/AgriciDaniel/claude-cybersecurity) | 273 | PYA (Protect Your Ass): security audit plugin for Claude Code. 9 specialist agents, a dated threat feed, verified findings, offline by default. | [SAFE](https://agentskillshub.top/skill/AgriciDaniel/claude-cybersecurity/) |
+| [tanviet12/vbsec](https://github.com/tanviet12/vbsec) | 324 | Security scanning skill for Claude Code, Codex and Antigravity. Finds the 21 most common vulnerabilities in AI-written code and shows how to fix each… | [SAFE](https://agentskillshub.top/skill/tanviet12/vbsec/) |
+| [AgriciDaniel/claude-cybersecurity](https://github.com/AgriciDaniel/claude-cybersecurity) | 275 | PYA (Protect Your Ass): security audit plugin for Claude Code. 9 specialist agents, a dated threat feed, verified findings, offline by default. | [SAFE](https://agentskillshub.top/skill/AgriciDaniel/claude-cybersecurity/) |
 | [Addepar/RedFlag](https://github.com/Addepar/RedFlag) | 163 | RedFlag uses AI to identify high-risk code changes. Run it in batch mode for release candidate testing or in CI pipelines to flag PRs and add reviewe… | [SAFE](https://agentskillshub.top/skill/Addepar/RedFlag/) |
 | [EastSword/skill-dfyx_code_security_review](https://github.com/EastSword/skill-dfyx_code_security_review) | 146 | 东方隐侠团队出品，代码审计skill | [SAFE](https://agentskillshub.top/skill/EastSword/skill-dfyx_code_security_review/) |
 | [DeepCodeAI/vscode-extension](https://github.com/DeepCodeAI/vscode-extension) | 130 | DeepCode extension for Visual Studio Code | [SAFE](https://agentskillshub.top/skill/DeepCodeAI/vscode-extension/) |
@@ -305,7 +305,7 @@ On 2026-10-10 we ran 16 of these tools and 13 ran. Each reviewed the same 12 pul
 | Repo | Stars | What it does | Security |
 |---|---:|---|---|
 | [Agent-Field/pr-af](https://github.com/Agent-Field/pr-af) | 663 | #1 open-source code reviewer on Code-Review-Bench | [SAFE](https://agentskillshub.top/skill/Agent-Field/pr-af/) |
-| [codexstar69/bug-hunter](https://github.com/codexstar69/bug-hunter) | 551 | Adversarial AI bug hunter with auto-fix skill for Claude Code, Cursor, Codex CLI, GitHub Copilot CLI, Kiro CLI, Opencode, Pi Coding Agent, and more.… | [SAFE](https://agentskillshub.top/skill/codexstar69/bug-hunter/) |
+| [codexstar69/bug-hunter](https://github.com/codexstar69/bug-hunter) | 553 | Adversarial AI bug hunter with auto-fix skill for Claude Code, Cursor, Codex CLI, GitHub Copilot CLI, Kiro CLI, Opencode, Pi Coding Agent, and more.… | [SAFE](https://agentskillshub.top/skill/codexstar69/bug-hunter/) |
 | [chorus-codes/chorus](https://github.com/chorus-codes/chorus) | 533 | Multi-LLM peer review for code decisions. Bring your own CLI; Chorus convenes 2-4 other LLMs to review the work before you ship. | [SAFE](https://agentskillshub.top/skill/chorus-codes/chorus/) |
 | [spencermarx/open-code-review](https://github.com/spencermarx/open-code-review) | 382 | AI-powered multi-agent code review. Simulates a customizable team of Engineers performing code review with built-in discourse. | [SAFE](https://agentskillshub.top/skill/spencermarx/open-code-review/) |
 | [adamjgmiller/adamsreview](https://github.com/adamjgmiller/adamsreview) | 245 | Multi-lens code review pipeline for Claude Code: deep review (Claude or Codex), auto-fix loop, interactive walkthrough, external-finding injection. | [SAFE](https://agentskillshub.top/skill/adamjgmiller/adamsreview/) |
@@ -313,17 +313,16 @@ On 2026-10-10 we ran 16 of these tools and 13 ran. Each reviewed the same 12 pul
 | [amElnagdy/review-skills](https://github.com/amElnagdy/review-skills) | 167 | Two-model debate review of PRs and MRs, plus a babysitter that works the review rounds. Skills for any coding agent. | [SAFE](https://agentskillshub.top/skill/amElnagdy/review-skills/) |
 | [syabro/rejudge](https://github.com/syabro/rejudge) | 166 | Independent multi-model review for AI coding agents | [SAFE](https://agentskillshub.top/skill/syabro/rejudge/) |
 | [VirtusLab/tulip](https://github.com/VirtusLab/tulip) | 142 | Explains GitHub PRs in a human-friendly way, using LLMs. | [SAFE](https://agentskillshub.top/skill/VirtusLab/tulip/) |
-| [Mte90/linus-torvalds-skill](https://github.com/Mte90/linus-torvalds-skill) | 122 | Distilled Code Reviewer skills/soul from 32k~ email from the kernel newsletter | [SAFE](https://agentskillshub.top/skill/Mte90/linus-torvalds-skill/) |
-| [minetechnic2012-lang/claude-ops-inspector](https://github.com/minetechnic2012-lang/claude-ops-inspector) | 119 | Subagent Verification for Claude AI Code Networks 2026 | [SAFE](https://agentskillshub.top/skill/minetechnic2012-lang/claude-ops-inspector/) |
+| [Mte90/linus-torvalds-skill](https://github.com/Mte90/linus-torvalds-skill) | 123 | Distilled Code Reviewer skills/soul from 32k~ email from the kernel newsletter | [SAFE](https://agentskillshub.top/skill/Mte90/linus-torvalds-skill/) |
 | [GGGODLIN/claude-pr-review](https://github.com/GGGODLIN/claude-pr-review) | 114 | Multi-axis PR review orchestration for Claude Code — 5 independent review perspectives, symmetric cross-verification, deterministic coverage assertion | [SAFE](https://agentskillshub.top/skill/GGGODLIN/claude-pr-review/) |
 | [umputun/revmux](https://github.com/umputun/revmux) | 114 | Multi-agent code review, supervised and auditable | [SAFE](https://agentskillshub.top/skill/umputun/revmux/) |
 | [huoji120/code_review_agent](https://github.com/huoji120/code_review_agent) | 113 | 简洁高效的代码审计agent | [SAFE](https://agentskillshub.top/skill/huoji120/code_review_agent/) |
 | [dalemoncayo/fullcase-web](https://github.com/dalemoncayo/fullcase-web) | 93 | A practical example of integrating AI code review into a real-world codebase. Built with Next.js and Firebase, this repo highlights structured prompt… | [CAUTION](https://agentskillshub.top/skill/dalemoncayo/fullcase-web/) |
 | [ZJunCher/mr-agent](https://github.com/ZJunCher/mr-agent) | 91 | An open-source multi-agent platform for GitLab MR code review, governance, and CI self-healing. | [SAFE](https://agentskillshub.top/skill/ZJunCher/mr-agent/) |
 | [csy-csy123/pr-review-agent-council](https://github.com/csy-csy123/pr-review-agent-council) | 88 | 学习 learn-claude-code 后的 PR Review Agent 实践项目：构建 Debate Council 多 Agent 审查、Tool Calling、结构化报告与 AI Judge 评估。 | [SAFE](https://agentskillshub.top/skill/csy-csy123/pr-review-agent-council/) |
-| [kevinten-ai/ai-agent-agentscope-codereview](https://github.com/kevinten-ai/ai-agent-agentscope-codereview) | 73 | 基于 AgentScope Java SDK 的智能代码审查 AI Agent，同时作为 AgentScope 框架学习教程。涵盖 ReAct 模式、工具系统、多 Agent 协作等核心概念。 | [SAFE](https://agentskillshub.top/skill/kevinten-ai/ai-agent-agentscope-codereview/) |
+| [kevinten-ai/ai-agent-agentscope-codereview](https://github.com/kevinten-ai/ai-agent-agentscope-codereview) | 74 | 基于 AgentScope Java SDK 的智能代码审查 AI Agent，同时作为 AgentScope 框架学习教程。涵盖 ReAct 模式、工具系统、多 Agent 协作等核心概念。 | [SAFE](https://agentskillshub.top/skill/kevinten-ai/ai-agent-agentscope-codereview/) |
+| [addyosmani/adverse](https://github.com/addyosmani/adverse) | 66 | Multi-agent adversarial code review for any coding agent | [SAFE](https://agentskillshub.top/skill/addyosmani/adverse/) |
 | [MaxwellCCC/autonomous-qa-loop](https://github.com/MaxwellCCC/autonomous-qa-loop) | 65 | Portable fresh-agent QA loop prompt for finding bugs without biased self-checks / 通用自动 QA 循环 SKILL | [SAFE](https://agentskillshub.top/skill/MaxwellCCC/autonomous-qa-loop/) |
-| [addyosmani/adverse](https://github.com/addyosmani/adverse) | 65 | Multi-agent adversarial code review for any coding agent | [SAFE](https://agentskillshub.top/skill/addyosmani/adverse/) |
 | [AaronZ345/codebase-argus](https://github.com/AaronZ345/codebase-argus) | 59 | Multi-agent codebase review for PRs, CI, and downstream fork syncs. | [CAUTION](https://agentskillshub.top/skill/AaronZ345/codebase-argus/) |
 | [ncoevoet/claude-review-all](https://github.com/ncoevoet/claude-review-all) | 45 | Comprehensive multi-agent code review for Claude Code | [SAFE](https://agentskillshub.top/skill/ncoevoet/claude-review-all/) |
 | [leocder07/spectra](https://github.com/leocder07/spectra) | 19 | 8 AI agents grade your entire repository across 6 dimensions — signed, verifiable A+ to F audit reports in minutes | [SAFE](https://agentskillshub.top/skill/leocder07/spectra/) |
@@ -339,12 +338,12 @@ On 2026-10-10 we ran 16 of these tools and 13 ran. Each reviewed the same 12 pul
 |---|---:|---|---|
 | [px0-ai/px0](https://github.com/px0-ai/px0) | 1.9k | px0 is a review workbench and speed-first IDE built for AI-generated code. It turns your browser into a zero-latency console with native Git and GitH… | [SAFE](https://agentskillshub.top/skill/px0-ai/px0/) |
 | [kodustech/kodus-ai](https://github.com/kodustech/kodus-ai) | 1.6k | Open source, self-hosted AI code review. Bring your own LLM. | [SAFE](https://agentskillshub.top/skill/kodustech/kodus-ai/) |
-| [miracodeai/mira](https://github.com/miracodeai/mira) | 394 | Self-hosted AI code reviewer with indexed PR reviews, walkthroughs, vulnerability scanning, dependency graphs, custom rules, and a learning loop. | [SAFE](https://agentskillshub.top/skill/miracodeai/mira/) |
+| [miracodeai/mira](https://github.com/miracodeai/mira) | 395 | Self-hosted AI code reviewer with indexed PR reviews, walkthroughs, vulnerability scanning, dependency graphs, custom rules, and a learning loop. | [SAFE](https://agentskillshub.top/skill/miracodeai/mira/) |
 | [domvwt/chatgpt-code-review](https://github.com/domvwt/chatgpt-code-review) | 289 |  | [SAFE](https://agentskillshub.top/skill/domvwt/chatgpt-code-review/) |
-| [FelixNg1022/cf_ai_code_review](https://github.com/FelixNg1022/cf_ai_code_review) | 202 | AI-powered code review application built on Cloudflare Workers | [SAFE](https://agentskillshub.top/skill/FelixNg1022/cf_ai_code_review/) |
+| [FelixNg1022/cf_ai_code_review](https://github.com/FelixNg1022/cf_ai_code_review) | 204 | AI-powered code review application built on Cloudflare Workers | [SAFE](https://agentskillshub.top/skill/FelixNg1022/cf_ai_code_review/) |
 | [seoes/proval](https://github.com/seoes/proval) | 129 | Self-Hosted LLM Code Review Agent for GitLab, Forgejo and GitHub. Local LLM support | [SAFE](https://agentskillshub.top/skill/seoes/proval/) |
 | [devarshishimpi/codra](https://github.com/devarshishimpi/codra) | 125 | Self-hosted AI code review for GitHub pull requests. | [SAFE](https://agentskillshub.top/skill/devarshishimpi/codra/) |
-| [HexmosTech/LiveReview](https://github.com/HexmosTech/LiveReview) | 100 | Risk-Aware AI Code Review for Business-Critical Systems | [CAUTION](https://agentskillshub.top/skill/HexmosTech/LiveReview/) |
+| [HexmosTech/LiveReview](https://github.com/HexmosTech/LiveReview) | 122 | Risk-Aware AI Code Review for Business-Critical Systems | [CAUTION](https://agentskillshub.top/skill/HexmosTech/LiveReview/) |
 | [imDarshanGK/AI-dev-assistant](https://github.com/imDarshanGK/AI-dev-assistant) | 83 | AI-powered code analysis tool with bug detection, code explanations, and AI-powered suggestions. | [SAFE](https://agentskillshub.top/skill/imDarshanGK/AI-dev-assistant/) |
 
 **Security** is the grade of the repo's README and install steps on Agent Skills Hub. *pending* means the catalog has not graded it yet.
@@ -361,4 +360,4 @@ Open an issue with the GitHub URL. It goes through the same review as every entr
 
 ---
 
-Machine-readable copy: [`data/skills.json`](data/skills.json). Generated 2026-11-08.
+Machine-readable copy: [`data/skills.json`](data/skills.json). Generated 2026-11-09.
