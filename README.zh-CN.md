@@ -103,11 +103,11 @@
 | [sourcery-ai/sourcery](https://github.com/sourcery-ai/sourcery) | 1.9k | 即时 AI 代码审查 | [SAFE](https://agentskillshub.top/skill/sourcery-ai/sourcery/) |
 | [vercel-labs/openreview](https://github.com/vercel-labs/openreview) | 1.7k | 由 Vercel 驱动的开源、自托管 AI 代码审查机器人 | [SAFE](https://agentskillshub.top/skill/vercel-labs/openreview/) |
 | [villesau/ai-codereviewer](https://github.com/villesau/ai-codereviewer) | 1.0k | AI Code Reviewer：使用 OpenAI 的 GPT-4 API 为 pull request 提供代码审查反馈和建议，提升代码质量并节省开发时间。 | [SAFE](https://agentskillshub.top/skill/villesau/ai-codereviewer/) |
-| [Nikita-Filonov/ai-review](https://github.com/Nikita-Filonov/ai-review) | 611 | GitHub、GitLab、Bitbucket Cloud、Bitbucket Server、Azure DevOps、Gitea 的 AI 代码审查工具 | [SAFE](https://agentskillshub.top/skill/Nikita-Filonov/ai-review/) |
+| [Nikita-Filonov/ai-review](https://github.com/Nikita-Filonov/ai-review) | 613 | GitHub、GitLab、Bitbucket Cloud、Bitbucket Server、Azure DevOps、Gitea 的 AI 代码审查工具 | [SAFE](https://agentskillshub.top/skill/Nikita-Filonov/ai-review/) |
 | [Nayjest/Gito](https://github.com/Nayjest/Gito) | 476 | 使用大语言模型进行代码审查，检测高置信度、高影响的问题，如安全漏洞、错误和可维护性问题。 | [SAFE](https://agentskillshub.top/skill/Nayjest/Gito/) |
 | [cirolini/genai-code-review](https://github.com/cirolini/genai-code-review) | 372 | 使用 LLM 审查 Pull Request 差异并在 PR 中发布评论的 GitHub Action | [SAFE](https://agentskillshub.top/skill/cirolini/genai-code-review/) |
 | [sturdy-dev/codeball-action](https://github.com/sturdy-dev/codeball-action) | 327 | Codeball – 发现代码错误并加快审查流程的 AI 代码审查工具 | [SAFE](https://agentskillshub.top/skill/sturdy-dev/codeball-action/) |
-| [gitbito/bitoai](https://github.com/gitbito/bitoai) | 299 | 在 GitHub、GitLab、Bitbucket pull requests 或 IDE 中获取代码库感知的反馈。 | [SAFE](https://agentskillshub.top/skill/gitbito/bitoai/) |
+| [gitbito/bitoai](https://github.com/gitbito/bitoai) | 298 | 在 GitHub、GitLab、Bitbucket pull requests 或 IDE 中获取代码库感知的反馈。 | [SAFE](https://agentskillshub.top/skill/gitbito/bitoai/) |
 | [Cloudflare-Studio/ask-bonk](https://github.com/Cloudflare-Studio/ask-bonk) | 271 | Bonk 是基于 Cloudflare Workers 和 OpenCode 的代码与文档 agent，可代你构建、审查和分流。 | [SAFE](https://agentskillshub.top/skill/Cloudflare-Studio/ask-bonk/) |
 | [truongnh1992/gemini-ai-code-reviewer](https://github.com/truongnh1992/gemini-ai-code-reviewer) | 259 | 使用 Google Gemini AI 自动审查 Pull Request 的 GitHub Action | [SAFE](https://agentskillshub.top/skill/truongnh1992/gemini-ai-code-reviewer/) |
 | [spherical-up/Easy-AI-CodeReview](https://github.com/spherical-up/Easy-AI-CodeReview) | 246 | Code Review 工具，提供智能比对、注释建议、变更摘要和代码质量提示，帮助理解提交内容并发现潜在问题。 | [SAFE](https://agentskillshub.top/skill/spherical-up/Easy-AI-CodeReview/) |
@@ -130,7 +130,7 @@
 | [Integral-Healthcare/robin-ai-reviewer](https://github.com/Integral-Healthcare/robin-ai-reviewer) | 65 | Robin 是以 GitHub Action 形式提供的 AI pull request 审查工具。 | [SAFE](https://agentskillshub.top/skill/Integral-Healthcare/robin-ai-reviewer/) |
 | [furudo-erika/codingfox](https://github.com/furudo-erika/codingfox) | 65 | 开源 AI 代码审查工具 | [SAFE](https://agentskillshub.top/skill/furudo-erika/codingfox/) |
 | [snarktank/ai-pr-review](https://github.com/snarktank/ai-pr-review) | 63 | 使用 Amp 或 Claude Code 提供 AI 代码审查的 GitHub Actions 工作流 | [SAFE](https://agentskillshub.top/skill/snarktank/ai-pr-review/) |
-| [aryanbrite/openrabbit](https://github.com/aryanbrite/openrabbit) | 60 | 免费、完全在 GitHub Actions 中运行的 AI PR 审查工具，无需托管。 | [SAFE](https://agentskillshub.top/skill/aryanbrite/openrabbit/) |
+| [aryanbrite/openrabbit](https://github.com/aryanbrite/openrabbit) | 61 | 免费、完全在 GitHub Actions 中运行的 AI PR 审查工具，无需托管。 | [SAFE](https://agentskillshub.top/skill/aryanbrite/openrabbit/) |
 | [Aestheticsuraj234/chai-ai-code-reviewer](https://github.com/Aestheticsuraj234/chai-ai-code-reviewer) | 59 | Chai AI Code Reviewer 自动分析 GitHub PR 变更，使用 Next.js、向量搜索、Vercel AI SDK 和 OpenRou… | [SAFE](https://agentskillshub.top/skill/Aestheticsuraj234/chai-ai-code-reviewer/) |
 | [Factory-AI/droid-code-review](https://github.com/Factory-AI/droid-code-review) | 55 | Droid 代码审查 | [SAFE](https://agentskillshub.top/skill/Factory-AI/droid-code-review/) |
 | [ellenhp/auditlm](https://github.com/ellenhp/auditlm) | 53 | 可自行托管的 AI 代码审查工具，适用于 Forgejo | [SAFE](https://agentskillshub.top/skill/ellenhp/auditlm/) |
@@ -151,20 +151,20 @@
 
 | 仓库 | 星数 | 做什么 | 安全评级 |
 |---|---:|---|---|
-| [openai/codex-plugin-cc](https://github.com/openai/codex-plugin-cc) | 35.3k | 使用 Claude Code 中的 Codex 审查代码或委派任务。 | [SAFE](https://agentskillshub.top/skill/openai/codex-plugin-cc/) |
+| [openai/codex-plugin-cc](https://github.com/openai/codex-plugin-cc) | 35.4k | 使用 Claude Code 中的 Codex 审查代码或委派任务。 | [SAFE](https://agentskillshub.top/skill/openai/codex-plugin-cc/) |
 | [awesome-skills/code-review-skill](https://github.com/awesome-skills/code-review-skill) | 2.3k | Claude Code 的代码审查 skill，涵盖 React 19、Vue 3、Rust、TypeScript、TanStack Query v5 等。 | [SAFE](https://agentskillshub.top/skill/awesome-skills/code-review-skill/) |
 | [hyhmrright/brooks-lint](https://github.com/hyhmrright/brooks-lint) | 1.6k | 基于12本经典工程书籍的AI代码审查：引用书籍、严重性标签的代码腐化风险诊断，以及包括全量扫描自动修复在内的6种分析模式 | [SAFE](https://agentskillshub.top/skill/hyhmrright/brooks-lint/) |
 | [amElnagdy/guard-skills](https://github.com/amElnagdy/guard-skills) | 1.3k | 为 coding agents 提供守护 skill，检测代码、测试和文档中的 AI 生成问题 | [SAFE](https://agentskillshub.top/skill/amElnagdy/guard-skills/) |
 | [hamelsmu/claude-review-loop](https://github.com/hamelsmu/claude-review-loop) | 733 | Claude Code 插件：使用 Codex 的自动化代码审查循环 | [SAFE](https://agentskillshub.top/skill/hamelsmu/claude-review-loop/) |
-| [AsyncFuncAI/AsyncReview](https://github.com/AsyncFuncAI/AsyncReview) | 463 | 受 DevinReview 启发的开源智能体代码审查工具，使用 Recursive Language Models（RLM） | [SAFE](https://agentskillshub.top/skill/AsyncFuncAI/AsyncReview/) |
-| [greptileai/skills](https://github.com/greptileai/skills) | 440 | 用于检查 PR 审查评论、状态检查和描述完整性的 agent skill | [SAFE](https://agentskillshub.top/skill/greptileai/skills/) |
+| [AsyncFuncAI/AsyncReview](https://github.com/AsyncFuncAI/AsyncReview) | 462 | 受 DevinReview 启发的开源智能体代码审查工具，使用 Recursive Language Models（RLM） | [SAFE](https://agentskillshub.top/skill/AsyncFuncAI/AsyncReview/) |
+| [greptileai/skills](https://github.com/greptileai/skills) | 441 | 用于检查 PR 审查评论、状态检查和描述完整性的 agent skill | [SAFE](https://agentskillshub.top/skill/greptileai/skills/) |
 | [vikingmute/review-forge](https://github.com/vikingmute/review-forge) | 224 | review-forge 是用于结构化、可审计代码审查流程的 Agent Skill | [SAFE](https://agentskillshub.top/skill/vikingmute/review-forge/) |
-| [Continuum-AI-Corp/Orca-Code-Review](https://github.com/Continuum-AI-Corp/Orca-Code-Review) | 190 | OrcaCode Review——开源代码审查工具。多模型审查、合并门禁，无标记。仅支付推理费用。 | [SAFE](https://agentskillshub.top/skill/Continuum-AI-Corp/Orca-Code-Review/) |
+| [Continuum-AI-Corp/Orca-Code-Review](https://github.com/Continuum-AI-Corp/Orca-Code-Review) | 191 | OrcaCode Review——开源代码审查工具。多模型审查、合并门禁，无标记。仅支付推理费用。 | [SAFE](https://agentskillshub.top/skill/Continuum-AI-Corp/Orca-Code-Review/) |
 | [fivetaku/insane-review](https://github.com/fivetaku/insane-review) | 127 | 在 Claude Code 中使用 GPT-5.5 Pro（仅网页端，无 API），用 repomix 打包代码并发送至 ChatGPT Pro 获取审查结果… | [SAFE](https://agentskillshub.top/skill/fivetaku/insane-review/) |
 | [win4r/agent-skills-code-review-router](https://github.com/win4r/agent-skills-code-review-router) | 124 | 根据技术栈、复杂度和变更特征，在 Gemini CLI 与 Codex CLI 间分配代码审查的 Agent Skill。 | [SAFE](https://agentskillshub.top/skill/win4r/agent-skills-code-review-router/) |
 | [nathankim0/clean-architecture-skills](https://github.com/nathankim0/clean-architecture-skills) | 116 | 用于依据 Clean Architecture 原则审查和设计代码的 Claude Code skill | [SAFE](https://agentskillshub.top/skill/nathankim0/clean-architecture-skills/) |
 | [rediga/Salesforce-Code-Review-Agent](https://github.com/rediga/Salesforce-Code-Review-Agent) | 106 | Salesforce DX 代码审查：Apex、LWC、Flows、安全性（CRUD/FLS）、governors 和 Bugbot。 | [SAFE](https://agentskillshub.top/skill/rediga/Salesforce-Code-Review-Agent/) |
-| [w1ckedxt/cynical-sally](https://github.com/w1ckedxt/cynical-sally) | 102 | 面向 Claude Code、Cursor、Windsurf 和终端的代码审查：评分、证据支持的问题与可用修复方案。 | [SAFE](https://agentskillshub.top/skill/w1ckedxt/cynical-sally/) |
+| [w1ckedxt/cynical-sally](https://github.com/w1ckedxt/cynical-sally) | 104 | 面向 Claude Code、Cursor、Windsurf 和终端的代码审查：评分、证据支持的问题与可用修复方案。 | [SAFE](https://agentskillshub.top/skill/w1ckedxt/cynical-sally/) |
 | [akkie76/code-review-skills](https://github.com/akkie76/code-review-skills) | 93 | 基于证据的 Codex 和 Claude Code 代码审查技能 | [SAFE](https://agentskillshub.top/skill/akkie76/code-review-skills/) |
 | [aidankinzett/claude-git-pr-skill](https://github.com/aidankinzett/claude-git-pr-skill) | 54 | Claude Code 的 GitHub PR 审查 skill，支持待处理审查、代码建议和用户批准流程 | [SAFE](https://agentskillshub.top/skill/aidankinzett/claude-git-pr-skill/) |
 | [mberneti/clab](https://github.com/mberneti/clab) | 54 | 开源 Claude skill，用于自动审查 GitLab MR，支持可配置 lint 规则、语义分析和行内评论。 | [SAFE](https://agentskillshub.top/skill/mberneti/clab/) |
@@ -195,23 +195,23 @@
 
 | 仓库 | 星数 | 做什么 | 安全评级 |
 |---|---:|---|---|
-| [alibaba/open-code-review](https://github.com/alibaba/open-code-review) | 55.3k | 混合架构代码审查工具：确定性流水线+LLM Agent，支持行级评论、多语言规则集及OpenAI和Anthropic兼容接口。 | [SAFE](https://agentskillshub.top/skill/alibaba/open-code-review/) |
+| [alibaba/open-code-review](https://github.com/alibaba/open-code-review) | 55.6k | 混合架构代码审查工具：确定性流水线+LLM Agent，支持行级评论、多语言规则集及OpenAI和Anthropic兼容接口。 | [SAFE](https://agentskillshub.top/skill/alibaba/open-code-review/) |
 | [tirth8205/code-review-graph](https://github.com/tirth8205/code-review-graph) | 32.9k | 本地优先的代码智能图，支持 MCP 和 CLI，持久化映射代码库，让 AI 编程工具读取相关代码。 | [SAFE](https://agentskillshub.top/skill/tirth8205/code-review-graph/) |
 | [kenn-io/roborev](https://github.com/kenn-io/roborev) | 1.8k | 面向 agent 的持续后台代码审查数据库，追踪每行生成代码的责任归属。 | [SAFE](https://agentskillshub.top/skill/kenn-io/roborev/) |
 | [sashiko-dev/sashiko](https://github.com/sashiko-dev/sashiko) | 1.5k | 基于 agent 的 Linux Kernel 代码变更审查 | [SAFE](https://agentskillshub.top/skill/sashiko-dev/sashiko/) |
 | [HexmosTech/git-lrc](https://github.com/HexmosTech/git-lrc) | 1.5k | 微型 AI 代码审查，随 Git 提交运行 | [SAFE](https://agentskillshub.top/skill/HexmosTech/git-lrc/) |
 | [Gentleman-Programming/gentleman-guardian-angel](https://github.com/Gentleman-Programming/gentleman-guardian-angel) | 1.4k | Gentleman Guardian Angel (gga)：支持 Claude、Gemini、Codex 和 Ollama 的 AI 代码审查工具，用于执行… | [SAFE](https://agentskillshub.top/skill/Gentleman-Programming/gentleman-guardian-angel/) |
 | [persiyanov/herdr-reviewr](https://github.com/persiyanov/herdr-reviewr) | 1.0k | 在终端窗格审查 coding agent 的差异，并将逐行评论发送回 Claude Code、Codex、OpenCode 或 Pi。herdr 插件。 | [SAFE](https://agentskillshub.top/skill/persiyanov/herdr-reviewr/) |
-| [nilbuild/diffity](https://github.com/nilbuild/diffity) | 917 | 用于审查你或 agent 编写代码的 Mac 应用，支持 Claude 参与。 | [SAFE](https://agentskillshub.top/skill/nilbuild/diffity/) |
-| [devagrawal09/jev-review](https://github.com/devagrawal09/jev-review) | 706 | 基于 TypeSafe Jev 构建的分阶段代码审查工作流和本地仪表板。 | [SAFE](https://agentskillshub.top/skill/devagrawal09/jev-review/) |
+| [nilbuild/diffity](https://github.com/nilbuild/diffity) | 919 | 用于审查你或 agent 编写代码的 Mac 应用，支持 Claude 参与。 | [SAFE](https://agentskillshub.top/skill/nilbuild/diffity/) |
+| [devagrawal09/jev-review](https://github.com/devagrawal09/jev-review) | 707 | 基于 TypeSafe Jev 构建的分阶段代码审查工作流和本地仪表板。 | [SAFE](https://agentskillshub.top/skill/devagrawal09/jev-review/) |
 | [taovc/pr-cockpit](https://github.com/taovc/pr-cockpit) | 485 | 本地 AI PR 工作台：在隔离的 Git worktree 中进行 Claude/Codex 审查，GitHub 评论需人工审核 | [SAFE](https://agentskillshub.top/skill/taovc/pr-cockpit/) |
-| [imbue-ai/vet](https://github.com/imbue-ai/vet) | 473 | 发现值得关注的问题。 | [SAFE](https://agentskillshub.top/skill/imbue-ai/vet/) |
+| [imbue-ai/vet](https://github.com/imbue-ai/vet) | 472 | 发现值得关注的问题。 | [SAFE](https://agentskillshub.top/skill/imbue-ai/vet/) |
 | [getsentry/warden](https://github.com/getsentry/warden) | 426 | 你的代码由新的管理者接管。审查代码的 agent。 | [SAFE](https://agentskillshub.top/skill/getsentry/warden/) |
 | [lakeday-org/perch](https://github.com/lakeday-org/perch) | 308 | 使用 Jev 进行语义代码检查 | [SAFE](https://agentskillshub.top/skill/lakeday-org/perch/) |
 | [TheMorpheus407/RepoLens](https://github.com/TheMorpheus407/RepoLens) | 304 | 多视角代码审计工具，支持代码审查、安全测试和基础设施审计 | [SAFE](https://agentskillshub.top/skill/TheMorpheus407/RepoLens/) |
+| [openqa-cn/codexqa](https://github.com/openqa-cn/codexqa) | 289 | 11个Agent Skills：Cursor、Claude Code、Codex、OpenClaw；变更分析、AI审查、缺陷扫描、用例生成、浏览回放、RCA。 | [SAFE](https://agentskillshub.top/skill/openqa-cn/codexqa/) |
 | [ReviewStage/stage-cli](https://github.com/ReviewStage/stage-cli) | 277 | 用于按小章节查看本地代码变更，适用于任何 AI agent。 | [SAFE](https://agentskillshub.top/skill/ReviewStage/stage-cli/) |
-| [openqa-cn/codexqa](https://github.com/openqa-cn/codexqa) | 277 | 11个Agent Skills：Cursor、Claude Code、Codex、OpenClaw；变更分析、AI审查、缺陷扫描、用例生成、浏览回放、RCA。 | [SAFE](https://agentskillshub.top/skill/openqa-cn/codexqa/) |
-| [NiazMorshed2007/jev-review](https://github.com/NiazMorshed2007/jev-review) | 254 | 基于 Jev 的本地优先 MCP 插件，用于 AI 编程 agent 持续审查软件质量。 | [SAFE](https://agentskillshub.top/skill/NiazMorshed2007/jev-review/) |
+| [NiazMorshed2007/jev-review](https://github.com/NiazMorshed2007/jev-review) | 256 | 基于 Jev 的本地优先 MCP 插件，用于 AI 编程 agent 持续审查软件质量。 | [SAFE](https://agentskillshub.top/skill/NiazMorshed2007/jev-review/) |
 | [wong2/diffx](https://github.com/wong2/diffx) | 220 | 用于编码 agent 工作流的本地代码审查工具 | [SAFE](https://agentskillshub.top/skill/wong2/diffx/) |
 | [Ataraxy-Labs/inspect](https://github.com/Ataraxy-Labs/inspect) | 216 | 实体级代码审查。通过跨文件依赖图和理解语义的 LLM，按结构风险分流 PR。 | [SAFE](https://agentskillshub.top/skill/Ataraxy-Labs/inspect/) |
 | [tshemsedinov/reslop](https://github.com/tshemsedinov/reslop) | 198 | 审查 AI 生成的代码并规划修改 | [SAFE](https://agentskillshub.top/skill/tshemsedinov/reslop/) |
@@ -227,7 +227,7 @@
 | [mikker/semantic-review](https://github.com/mikker/semantic-review) | 82 | coding agent 的语义差异审查 | [SAFE](https://agentskillshub.top/skill/mikker/semantic-review/) |
 | [katarmal-ram/codemoot](https://github.com/katarmal-ram/codemoot) | 78 | 多模型协作开发平台——Claude 与 GPT 共同讨论、审查和构建 | [SAFE](https://agentskillshub.top/skill/katarmal-ram/codemoot/) |
 | [n24q02m/crg](https://github.com/n24q02m/crg) | 76 | 面向节省 token 的代码审查知识图谱，支持整个代码库的语义搜索和调用图解析。 | [SAFE](https://agentskillshub.top/skill/n24q02m/crg/) |
-| [in-the-loop-labs/pair-review](https://github.com/in-the-loop-labs/pair-review) | 74 | AI辅助代码审查，人工参与 | [SAFE](https://agentskillshub.top/skill/in-the-loop-labs/pair-review/) |
+| [in-the-loop-labs/pair-review](https://github.com/in-the-loop-labs/pair-review) | 75 | AI辅助代码审查，人工参与 | [SAFE](https://agentskillshub.top/skill/in-the-loop-labs/pair-review/) |
 | [simion/reviewd](https://github.com/simion/reviewd) | 72 | 本地 AI pull request 审查工具，直接在终端审查 GitHub 和 BitBucket PR，支持 Claude Code、Gemini 和 C… | [SAFE](https://agentskillshub.top/skill/simion/reviewd/) |
 | [kunkka19xx/lgtm](https://github.com/kunkka19xx/lgtm) | 70 | 说 LGTM 前先阅读 agent 写的内容。用 Zig 编写的快速 TUI，支持 vim 操作审查代码。 | [CAUTION](https://agentskillshub.top/skill/kunkka19xx/lgtm/) |
 | [bobmatnyc/ai-code-review](https://github.com/bobmatnyc/ai-code-review) | 56 | 支持 Gemini、Claude、OpenAI 的 AI 代码审查 CLI，含语义分块、7 种审查类型、多语言、交互式修复和开发者 skill 评估。 | [SAFE](https://agentskillshub.top/skill/bobmatnyc/ai-code-review/) |
@@ -277,11 +277,11 @@
 | [lintsinghua/DeepAudit](https://github.com/lintsinghua/DeepAudit) | 7.3k | DeepAudit：开源代码漏洞挖掘多智能体系统，支持自主审计、沙箱 PoC 验证、Ollama 私有部署和报告生成。 | [SAFE](https://agentskillshub.top/skill/lintsinghua/DeepAudit/) |
 | [anthropics/claude-code-security-review](https://github.com/anthropics/claude-code-security-review) | 7.1k | 使用 Claude 分析代码变更安全漏洞的 AI 安全审查 GitHub Action。 | [SAFE](https://agentskillshub.top/skill/anthropics/claude-code-security-review/) |
 | [google/mantis](https://github.com/google/mantis) | 2.8k | 面向 AI 编程代理的模块化、与技术栈无关的工具包，可自主发现、复现并修复漏洞。 | [SAFE](https://agentskillshub.top/skill/google/mantis/) |
-| [arm/metis](https://github.com/arm/metis) | 897 | Metis 是一个开源的 AI 驱动安全代码审查工具 | [SAFE](https://agentskillshub.top/skill/arm/metis/) |
+| [arm/metis](https://github.com/arm/metis) | 896 | Metis 是一个开源的 AI 驱动安全代码审查工具 | [SAFE](https://agentskillshub.top/skill/arm/metis/) |
 | [agentgg-dev/agentgg](https://github.com/agentgg-dev/agentgg) | 469 | 开源智能体 SAST，支持分析代码仓库或 PR diff，并可自选模型。 | [SAFE](https://agentskillshub.top/skill/agentgg-dev/agentgg/) |
-| [tanviet12/vbsec](https://github.com/tanviet12/vbsec) | 336 | 适用于 Claude Code、Codex 和 Antigravity 的安全扫描 skill，发现 AI 编写代码中 21 种常见漏洞并说明修复方法。 | [SAFE](https://agentskillshub.top/skill/tanviet12/vbsec/) |
+| [tanviet12/vbsec](https://github.com/tanviet12/vbsec) | 338 | 适用于 Claude Code、Codex 和 Antigravity 的安全扫描 skill，发现 AI 编写代码中 21 种常见漏洞并说明修复方法。 | [SAFE](https://agentskillshub.top/skill/tanviet12/vbsec/) |
 | [AgriciDaniel/claude-cybersecurity](https://github.com/AgriciDaniel/claude-cybersecurity) | 283 | 面向 Claude Code 的 AI 网络安全代码审查 skill，含 8 个专用 agent，支持 OWASP 2025、CWE Top 25、MITRE… | [SAFE](https://agentskillshub.top/skill/AgriciDaniel/claude-cybersecurity/) |
-| [Addepar/RedFlag](https://github.com/Addepar/RedFlag) | 163 | RedFlag 使用 AI 识别高风险代码变更，可在批处理模式或 CI 流程中标记 PR 并添加审阅者。 | [SAFE](https://agentskillshub.top/skill/Addepar/RedFlag/) |
+| [Addepar/RedFlag](https://github.com/Addepar/RedFlag) | 164 | RedFlag 使用 AI 识别高风险代码变更，可在批处理模式或 CI 流程中标记 PR 并添加审阅者。 | [SAFE](https://agentskillshub.top/skill/Addepar/RedFlag/) |
 | [EastSword/skill-dfyx_code_security_review](https://github.com/EastSword/skill-dfyx_code_security_review) | 147 | 东方隐侠团队的代码审计 skill | [SAFE](https://agentskillshub.top/skill/EastSword/skill-dfyx_code_security_review/) |
 | [DeepCodeAI/vscode-extension](https://github.com/DeepCodeAI/vscode-extension) | 130 | Visual Studio Code 的 DeepCode 扩展 | [SAFE](https://agentskillshub.top/skill/DeepCodeAI/vscode-extension/) |
 | [momenbasel/vulnhawk](https://github.com/momenbasel/vulnhawk) | 90 | AI 驱动的 SAST 扫描器，发现 Semgrep/CodeQL 漏掉的认证绕过、IDOR 和逻辑漏洞。免费 GitHub Action，支持 Python… | [SAFE](https://agentskillshub.top/skill/momenbasel/vulnhawk/) |
@@ -305,14 +305,14 @@
 | 仓库 | 星数 | 做什么 | 安全评级 |
 |---|---:|---|---|
 | [Agent-Field/pr-af](https://github.com/Agent-Field/pr-af) | 668 | #1 open-source code reviewer on Code-Review-Bench | [SAFE](https://agentskillshub.top/skill/Agent-Field/pr-af/) |
-| [codexstar69/bug-hunter](https://github.com/codexstar69/bug-hunter) | 572 | 对抗式 AI 漏洞猎手，支持 Claude Code、Cursor、Codex CLI 等，自动发现并在安全分支修复安全漏洞、逻辑错误和运行时错误。 | [SAFE](https://agentskillshub.top/skill/codexstar69/bug-hunter/) |
+| [codexstar69/bug-hunter](https://github.com/codexstar69/bug-hunter) | 575 | 对抗式 AI 漏洞猎手，支持 Claude Code、Cursor、Codex CLI 等，自动发现并在安全分支修复安全漏洞、逻辑错误和运行时错误。 | [SAFE](https://agentskillshub.top/skill/codexstar69/bug-hunter/) |
 | [chorus-codes/chorus](https://github.com/chorus-codes/chorus) | 534 | 面向代码决策的多 LLM 同行评审。使用自己的 CLI，Chorus 发布前召集 2-4 个 LLM 评审。 | [SAFE](https://agentskillshub.top/skill/chorus-codes/chorus/) |
-| [spencermarx/open-code-review](https://github.com/spencermarx/open-code-review) | 395 | AI 驱动的多智能体代码审查，模拟可定制的工程师团队进行内置讨论式审查。 | [SAFE](https://agentskillshub.top/skill/spencermarx/open-code-review/) |
+| [spencermarx/open-code-review](https://github.com/spencermarx/open-code-review) | 396 | AI 驱动的多智能体代码审查，模拟可定制的工程师团队进行内置讨论式审查。 | [SAFE](https://agentskillshub.top/skill/spencermarx/open-code-review/) |
 | [adamjgmiller/adamsreview](https://github.com/adamjgmiller/adamsreview) | 245 | Claude Code 的多视角代码审查流程：深度审查、自动修复循环、交互式演练、外部发现注入。 | [SAFE](https://agentskillshub.top/skill/adamjgmiller/adamsreview/) |
 | [99xAgency/GodModeSkill](https://github.com/99xAgency/GodModeSkill) | 240 | Claude Code 多 LLM 交叉审查工作流。/work 编排规划、实现和修复，每个关卡由 3 个不同模型系列投票。 | [SAFE](https://agentskillshub.top/skill/99xAgency/GodModeSkill/) |
 | [amElnagdy/review-skills](https://github.com/amElnagdy/review-skills) | 174 | 双模型辩论审查 PR 和 MR，另有 babysitter 管理审查轮次。适用于任何 coding agent 的 skill。 | [SAFE](https://agentskillshub.top/skill/amElnagdy/review-skills/) |
 | [syabro/rejudge](https://github.com/syabro/rejudge) | 166 | 面向 AI 编程 agent 的独立多模型评测 | [SAFE](https://agentskillshub.top/skill/syabro/rejudge/) |
-| [VirtusLab/tulip](https://github.com/VirtusLab/tulip) | 148 | 使用 LLM 以易于理解的方式解释 GitHub PR。 | [SAFE](https://agentskillshub.top/skill/VirtusLab/tulip/) |
+| [VirtusLab/tulip](https://github.com/VirtusLab/tulip) | 149 | 使用 LLM 以易于理解的方式解释 GitHub PR。 | [SAFE](https://agentskillshub.top/skill/VirtusLab/tulip/) |
 | [Mte90/linus-torvalds-skill](https://github.com/Mte90/linus-torvalds-skill) | 124 | 从 kernel newsletter 约3.2万封邮件中提炼的 Code Reviewer skill/soul | [SAFE](https://agentskillshub.top/skill/Mte90/linus-torvalds-skill/) |
 | [huoji120/code_review_agent](https://github.com/huoji120/code_review_agent) | 117 | 代码审计 agent | [SAFE](https://agentskillshub.top/skill/huoji120/code_review_agent/) |
 | [umputun/revmux](https://github.com/umputun/revmux) | 117 | 多智能体代码审查，可监督、可审计 | [SAFE](https://agentskillshub.top/skill/umputun/revmux/) |
@@ -320,8 +320,8 @@
 | [dalemoncayo/fullcase-web](https://github.com/dalemoncayo/fullcase-web) | 93 | AI 代码审查实际集成示例，使用 Next.js 和 Firebase，展示结构化提示、可复用 review skill，以及 Claude Code 和 O… | [CAUTION](https://agentskillshub.top/skill/dalemoncayo/fullcase-web/) |
 | [ZJunCher/mr-agent](https://github.com/ZJunCher/mr-agent) | 92 | 用于 GitLab MR 代码审查、治理和 CI 自动修复的开源多 agent 平台。 | [SAFE](https://agentskillshub.top/skill/ZJunCher/mr-agent/) |
 | [csy-csy123/pr-review-agent-council](https://github.com/csy-csy123/pr-review-agent-council) | 89 | 基于 learn-claude-code 的 PR Review Agent：实现 Debate Council 多 Agent 审查、Tool Callin… | [SAFE](https://agentskillshub.top/skill/csy-csy123/pr-review-agent-council/) |
-| [kevinten-ai/ai-agent-agentscope-codereview](https://github.com/kevinten-ai/ai-agent-agentscope-codereview) | 76 | 基于 AgentScope Java SDK 的代码审查 Agent，涵盖 ReAct、工具系统和多 Agent 协作。 | [SAFE](https://agentskillshub.top/skill/kevinten-ai/ai-agent-agentscope-codereview/) |
-| [addyosmani/adverse](https://github.com/addyosmani/adverse) | 69 | 适用于任意 coding agent 的多智能体对抗式代码审查 | [SAFE](https://agentskillshub.top/skill/addyosmani/adverse/) |
+| [kevinten-ai/ai-agent-agentscope-codereview](https://github.com/kevinten-ai/ai-agent-agentscope-codereview) | 77 | 基于 AgentScope Java SDK 的代码审查 Agent，涵盖 ReAct、工具系统和多 Agent 协作。 | [SAFE](https://agentskillshub.top/skill/kevinten-ai/ai-agent-agentscope-codereview/) |
+| [addyosmani/adverse](https://github.com/addyosmani/adverse) | 70 | 适用于任意 coding agent 的多智能体对抗式代码审查 | [SAFE](https://agentskillshub.top/skill/addyosmani/adverse/) |
 | [MaxwellCCC/autonomous-qa-loop](https://github.com/MaxwellCCC/autonomous-qa-loop) | 65 | 用于发现 bug、避免偏见自检的便携式 fresh-agent QA 循环提示词/SKILL | [SAFE](https://agentskillshub.top/skill/MaxwellCCC/autonomous-qa-loop/) |
 | [AaronZ345/codebase-argus](https://github.com/AaronZ345/codebase-argus) | 60 | 多 agent 代码库审查，涵盖 PR、CI 和下游 fork 同步。 | [CAUTION](https://agentskillshub.top/skill/AaronZ345/codebase-argus/) |
 | [ncoevoet/claude-review-all](https://github.com/ncoevoet/claude-review-all) | 45 | Claude Code 的多智能体代码审查 | [SAFE](https://agentskillshub.top/skill/ncoevoet/claude-review-all/) |
@@ -338,7 +338,7 @@
 |---|---:|---|---|
 | [px0-ai/px0](https://github.com/px0-ai/px0) | 2.0k | px0 是审查 AI 生成代码的 IDE，将浏览器变为低延迟控制台，集成 Git、GitHub，支持大型代码库搜索，并可交接到本地 AI 编程工具。 | [SAFE](https://agentskillshub.top/skill/px0-ai/px0/) |
 | [kodustech/kodus-ai](https://github.com/kodustech/kodus-ai) | 1.6k | 开源、自托管的 AI 代码审查，支持自带 LLM。 | [SAFE](https://agentskillshub.top/skill/kodustech/kodus-ai/) |
-| [miracodeai/mira](https://github.com/miracodeai/mira) | 419 | 自托管 AI 代码审查工具，支持索引 PR 审查、代码讲解、漏洞扫描、依赖图、自定义规则和学习循环。 | [SAFE](https://agentskillshub.top/skill/miracodeai/mira/) |
+| [miracodeai/mira](https://github.com/miracodeai/mira) | 420 | 自托管 AI 代码审查工具，支持索引 PR 审查、代码讲解、漏洞扫描、依赖图、自定义规则和学习循环。 | [SAFE](https://agentskillshub.top/skill/miracodeai/mira/) |
 | [domvwt/chatgpt-code-review](https://github.com/domvwt/chatgpt-code-review) | 289 | ChatGPT Code Review：分析 GitHub 仓库代码并提供改进建议。 | [SAFE](https://agentskillshub.top/skill/domvwt/chatgpt-code-review/) |
 | [FelixNg1022/cf_ai_code_review](https://github.com/FelixNg1022/cf_ai_code_review) | 220 | 基于 Cloudflare Workers 的 AI 代码审查应用 | [SAFE](https://agentskillshub.top/skill/FelixNg1022/cf_ai_code_review/) |
 | [HexmosTech/LiveReview](https://github.com/HexmosTech/LiveReview) | 164 | 面向业务关键系统的影响范围感知 AI 代码审查 | [SAFE](https://agentskillshub.top/skill/HexmosTech/LiveReview/) |
@@ -360,4 +360,4 @@
 
 ---
 
-机器可读版本:[`data/skills.json`](data/skills.json)。生成于 2026-11-22。
+机器可读版本:[`data/skills.json`](data/skills.json)。生成于 2026-11-23。
